@@ -1,0 +1,9 @@
+api = 2
+core = 7.x
+
+projects[drupal][type] = core
+projects[drupal][version] = 7.23
+
+projects[iaminawe][type] = "profile"
+projects[iaminawe][download][type] = "git"
+projects[iaminawe][download][url] = "https://github.com/iaminawe/iaminawe-deploy.git"
