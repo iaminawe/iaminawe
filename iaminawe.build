@@ -6,4 +6,4 @@ projects[drupal][version] = 7.23
 
 projects[iaminawe][type] = "profile"
 projects[iaminawe][download][type] = "git"
-projects[iaminawe][download][url] = "https://github.com/iaminawe/iaminawe-deploy.git"
+projects[iaminawe][download][url] = "https://github.com/iaminawe/iaminawe.git"
