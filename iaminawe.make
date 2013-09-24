@@ -375,20 +375,20 @@ projects[extlink][subdir] = "contrib"
 projects[semanticviews][version] = "1.x-dev"
 projects[semanticviews][subdir] = "contrib"
 
-projects[views_infinite_scroll][version] = "1.1"
-projects[views_infinite_scroll][subdir] = "contrib"
+projects[views_infinite_scroll][version] = 1.1
+projects[views_infinite_scroll][subdir] = contrib
 
-projects[views_slideshow][version] = "3.x-dev"
-projects[views_slideshow][subdir] = "contrib"
+projects[views_slideshow][version] = 3.x-dev
+projects[views_slideshow][subdir] = contrib
 
-projects[webform][version] = "3.17"
-projects[webform][subdir] = "contrib"
+projects[webform][version] = 3.17
+projects[webform][subdir] = contrib
 
-projects[xmlsitemap][version] = "2.0-beta2"
-projects[xmlsitemap][subdir] = "contrib"
+projects[xmlsitemap][version] = 2.0-beta2
+projects[xmlsitemap][subdir] = contrib
 
-projects[fit_text][version] = "1.0";
-projects[fit_text][subdir] = "contrib"
+projects[fit_text][version] = 1.x-dev;
+projects[fit_text][subdir] = contrib
 
 
 ;;;;;;;;;
