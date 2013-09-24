@@ -12,7 +12,7 @@ projects[diff][subdir] = contrib
 projects[diff][version] = 3.2
 
 projects[email][subdir] = contrib
-projects[email][version] = 1.2galle
+projects[email][version] = 1.2
 
 projects[entityreference][subdir] = contrib
 projects[entityreference][version] = 1.x-dev
@@ -424,11 +424,8 @@ projects[stage_file_proxy][version] = 1.3
 ;;;;;;;;;
 
 ; omega
-projects[omega][type] = theme
 projects[omega][version] = 3.1
 projects[omega][subdir] = contrib
-
-
 
 ;;;;;;;;;
 ; Libraries
