@@ -12,7 +12,7 @@ projects[diff][subdir] = contrib
 projects[diff][version] = 3.2
 
 projects[email][subdir] = contrib
-projects[email][version] = 1.2
+projects[email][version] = 1.2galle
 
 projects[entityreference][subdir] = contrib
 projects[entityreference][version] = 1.x-dev
@@ -490,7 +490,7 @@ libraries[galleria][directory_name] = "galleria"
 libraries[galleria][type] = "library"
 libraries[galleria][destination] = "libraries"
 libraries[galleria][download][type] = "get"
-libraries[galleria][download][url] = "http://galleria.io/static/galleria-1.2.9.zip" ;
+libraries[galleria][download][url] = "http://galleria.io/static/galleria-1.2.9.zip"
 
 ; autopager
 ;libraries[autopager][directory_name] = "autopager"
