@@ -387,8 +387,6 @@ projects[webform][subdir] = contrib
 projects[xmlsitemap][version] = 2.0-beta2
 projects[xmlsitemap][subdir] = contrib
 
-projects[fit_text][version] = 1.x-dev;
-projects[fit_text][subdir] = contrib
 
 
 ;;;;;;;;;
