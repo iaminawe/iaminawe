@@ -12,12 +12,10 @@ dependencies[] = fontyourface_ui
 dependencies[] = typekit_api
 ; Administration
 dependencies[] = admin_menu
-dependencies[] = coffee
 dependencies[] = fpa
 ; CCK
 dependencies[] = cck
-dependencies[] = content_migrate
-dependencies[] = filefield_nginx_progress
+
 ; Chaos tool suite
 dependencies[] = ctools
 dependencies[] = page_manager
@@ -25,9 +23,7 @@ dependencies[] = page_manager
 dependencies[] = context
 dependencies[] = context_layouts
 dependencies[] = context_ui
-; Contextual Administration
-dependencies[] = context_admin
-dependencies[] = context_admin_vbo
+
 ; Core
 dependencies[] = block
 dependencies[] = contact
@@ -79,7 +75,6 @@ dependencies[] = addressfield
 dependencies[] = content_taxonomy
 dependencies[] = content_taxonomy_autocomplete
 dependencies[] = content_taxonomy_migrate
-dependencies[] = field_color
 dependencies[] = link
 dependencies[] = node_reference
 dependencies[] = references
@@ -90,7 +85,7 @@ dependencies[] = flag
 dependencies[] = flexslider
 dependencies[] = flexslider_fields
 dependencies[] = flexslider_views
-dependencies[] = flexslider_views_slideshow
+
 ; Input filters
 dependencies[] = typogrify
 ; Media
@@ -114,11 +109,9 @@ dependencies[] = bg_image
 dependencies[] = bg_image_context
 dependencies[] = bg_image_ui
 dependencies[] = browserclass
-dependencies[] = colorbox
 dependencies[] = custom_pagers
 dependencies[] = entity
 dependencies[] = entity_token
-dependencies[] = fit_text
 dependencies[] = fitvids
 dependencies[] = flippy
 dependencies[] = galleria
@@ -130,17 +123,11 @@ dependencies[] = plup
 dependencies[] = robotstxt
 dependencies[] = scroll_to_top
 dependencies[] = securesite
-dependencies[] = speedy
 dependencies[] = strongarm
 dependencies[] = token
 dependencies[] = triple_double
 dependencies[] = twitter_pull
-; Performance and scalability
-dependencies[] = entitycache
-dependencies[] = expire
-dependencies[] = purge
-; Security
-dependencies[] = seckit
+
 ; Sharing
 dependencies[] = sharethis
 ; Statistics
@@ -156,15 +143,12 @@ dependencies[] = delta_blocks
 dependencies[] = delta_ui
 
 ; User interface
-dependencies[] = ckeditor
 dependencies[] = extlink
 ; Views
 dependencies[] = semanticviews
 dependencies[] = views
 dependencies[] = views_bulk_operations
-dependencies[] = views_fluidgrid
 dependencies[] = views_infinite_scroll
-dependencies[] = views_quicksand
 dependencies[] = views_slideshow
 dependencies[] = views_ui
 ; Webform
