@@ -141,8 +141,8 @@ function iaminawe_install() {
   filter_format_save($full_html_format);
 
   // Setting up the editor.
-  iaminawe_configure_wysiwyg();
-  iaminawe_configure_formatters();
+  //iaminawe_configure_wysiwyg();
+  //iaminawe_configure_formatters();
 }
 
 /**
