@@ -348,6 +348,12 @@ projects[triple_double][subdir] = "contrib"
 projects[twitter_pull][version] = "2.0-alpha2"
 projects[twitter_pull][subdir] = "contrib"
 
+projects[twitter][version] = "5.8"
+projects[twitter][subdir] = "contrib"
+
+projects[oauth][version] = "3.1"
+projects[oauth][subdir] = "contrib"
+
 projects[sharethis][version] = "2.5"
 projects[sharethis][subdir] = "contrib"
 
