@@ -55,21 +55,7 @@ dependencies[] = ds
 dependencies[] = ds_extras
 dependencies[] = ds_forms
 dependencies[] = ds_search
-; Domain Access
-dependencies[] = domain
-dependencies[] = domain_alias
-dependencies[] = domain_blocks
-dependencies[] = domain_conf
-dependencies[] = domain_content
-dependencies[] = domain_content_types
-dependencies[] = domain_menu_access
-dependencies[] = domain_nav
-dependencies[] = domain_path
-dependencies[] = domain_settings
-dependencies[] = domain_source
-dependencies[] = domain_theme
-dependencies[] = domain_views
-dependencies[] = domaincontext
+
 ; Fields
 dependencies[] = addressfield
 dependencies[] = content_taxonomy
@@ -154,7 +140,6 @@ dependencies[] = views_ui
 ; Webform
 dependencies[] = webform
 ; XML sitemap
-dependencies[] = domain_xmlsitemap
 dependencies[] = xmlsitemap
 dependencies[] = xmlsitemap_custom
 dependencies[] = xmlsitemap_engines
