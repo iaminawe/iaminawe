@@ -1,0 +1,190 @@
+; Packaging information for iaminawe
+name = "iaminawe"
+description = "install profile for the iaminawe.com, angellacoppen.com and iaminawe.com sites"
+exclusive = "1"
+core = "7.x"
+; ----------
+; Dependencies
+; ----------
+; @font-your-face
+dependencies[] = fontyourface
+dependencies[] = fontyourface_ui
+dependencies[] = typekit_api
+; Administration
+dependencies[] = admin_menu
+dependencies[] = coffee
+dependencies[] = fpa
+; CCK
+dependencies[] = cck
+dependencies[] = content_migrate
+dependencies[] = filefield_nginx_progress
+; Chaos tool suite
+dependencies[] = ctools
+dependencies[] = page_manager
+; Context
+dependencies[] = context
+dependencies[] = context_layouts
+dependencies[] = context_ui
+; Contextual Administration
+dependencies[] = context_admin
+dependencies[] = context_admin_vbo
+; Core
+dependencies[] = block
+dependencies[] = contact
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = search
+dependencies[] = syslog
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = trigger
+dependencies[] = user
+; Display suite
+dependencies[] = ds
+dependencies[] = ds_extras
+dependencies[] = ds_forms
+dependencies[] = ds_search
+; Domain Access
+dependencies[] = domain
+dependencies[] = domain_alias
+dependencies[] = domain_blocks
+dependencies[] = domain_conf
+dependencies[] = domain_content
+dependencies[] = domain_content_types
+dependencies[] = domain_menu_access
+dependencies[] = domain_nav
+dependencies[] = domain_path
+dependencies[] = domain_settings
+dependencies[] = domain_source
+dependencies[] = domain_theme
+dependencies[] = domain_views
+dependencies[] = domaincontext
+; Fields
+dependencies[] = addressfield
+dependencies[] = content_taxonomy
+dependencies[] = content_taxonomy_autocomplete
+dependencies[] = content_taxonomy_migrate
+dependencies[] = field_color
+dependencies[] = link
+dependencies[] = node_reference
+dependencies[] = references
+dependencies[] = user_reference
+; Flags
+dependencies[] = flag
+; Flex Slider
+dependencies[] = flexslider
+dependencies[] = flexslider_fields
+dependencies[] = flexslider_views
+dependencies[] = flexslider_views_slideshow
+; Input filters
+dependencies[] = typogrify
+; Media
+dependencies[] = file_entity
+dependencies[] = media
+dependencies[] = media_internet
+dependencies[] = media_vimeo
+dependencies[] = media_youtube
+dependencies[] = plupload
+; Meta tags
+dependencies[] = metatag
+dependencies[] = metatag_opengraph
+; Monitoring
+dependencies[] = prod_check
+dependencies[] = prod_monitor
+; Other
+dependencies[] = adaptive_image
+dependencies[] = backup_migrate
+dependencies[] = better_formats
+dependencies[] = bg_image
+dependencies[] = bg_image_context
+dependencies[] = bg_image_ui
+dependencies[] = browserclass
+dependencies[] = colorbox
+dependencies[] = custom_pagers
+dependencies[] = entity
+dependencies[] = entity_token
+dependencies[] = fit_text
+dependencies[] = fitvids
+dependencies[] = flippy
+dependencies[] = galleria
+dependencies[] = libraries
+dependencies[] = menu_block
+dependencies[] = multiform
+dependencies[] = pathauto
+dependencies[] = plup
+dependencies[] = robotstxt
+dependencies[] = scroll_to_top
+dependencies[] = securesite
+dependencies[] = speedy
+dependencies[] = strongarm
+dependencies[] = token
+dependencies[] = triple_double
+dependencies[] = twitter_pull
+; Performance and scalability
+dependencies[] = entitycache
+dependencies[] = expire
+dependencies[] = purge
+; Security
+dependencies[] = seckit
+; Sharing
+dependencies[] = sharethis
+; Statistics
+dependencies[] = googleanalytics
+; Taxonomy
+dependencies[] = taxonomy_manager
+dependencies[] = term_merge
+; Taxonomy Menu
+dependencies[] = taxonomy_menu
+; Theme Tools
+dependencies[] = delta
+dependencies[] = delta_blocks
+dependencies[] = delta_ui
+
+; User interface
+dependencies[] = ckeditor
+dependencies[] = extlink
+; Views
+dependencies[] = semanticviews
+dependencies[] = views
+dependencies[] = views_bulk_operations
+dependencies[] = views_fluidgrid
+dependencies[] = views_infinite_scroll
+dependencies[] = views_quicksand
+dependencies[] = views_slideshow
+dependencies[] = views_ui
+; Webform
+dependencies[] = webform
+; XML sitemap
+dependencies[] = domain_xmlsitemap
+dependencies[] = xmlsitemap
+dependencies[] = xmlsitemap_custom
+dependencies[] = xmlsitemap_engines
+dependencies[] = xmlsitemap_menu
+dependencies[] = xmlsitemap_node
+; Features
+dependencies[] = features
+dependencies[] = business_card
+dependencies[] = design
+dependencies[] = logo
+dependencies[] = mobile
+dependencies[] = packaging
+dependencies[] = theatre
+dependencies[] = tshirt
+dependencies[] = video
+dependencies[] = website
+
