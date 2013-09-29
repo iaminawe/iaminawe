@@ -42,19 +42,21 @@ function iaminawe_install() {
 
 
     // drop system / user blocks to ensure correct building
-  //db_delete('block')->condition('module', 'system')->execute();
-  //db_delete('block')->condition('module', 'user')->execute();
+  db_delete('block')->condition('module', 'system')->execute();
+  db_delete('block')->condition('module', 'user')->execute();
+
   // add in our blocks defined above
-  //$query = db_insert('block')->fields(array('module', 'delta', 'theme', 'status', 'weight', 'region', 'pages', 'cache'));
-  //foreach ($blocks as $block) {
-  //  $query->values($block);
-  //}
-  //$query->execute();
+  $query = db_insert('block')->fields(array('module', 'delta', 'theme', 'status', 'weight', 'region', 'pages', 'cache'));
+  foreach ($blocks as $block) {
+   $query->values($block);
+  }
+  $query->execute();
 
     // revert features to ensure they are all installed
   $features = array(
     'uuid_features'
   );
+
   features_revert($features);// Create a default role for site administrators, with all available permissions assigned.
   $admin_role = new stdClass();
   $admin_role->name = 'administrator';
@@ -73,7 +75,7 @@ function iaminawe_install() {
   variable_set('user_register', USER_REGISTER_ADMINISTRATORS_ONLY);
 
   // Only allow authenticated users to view content.
-  //user_role_grant_permissions(DRUPAL_AUTHENTICATED_RID, array('access content'));
+  user_role_grant_permissions(DRUPAL_AUTHENTICATED_RID, array('access content'));
 
   // Update the menu router information.
   menu_rebuild();
