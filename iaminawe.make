@@ -153,6 +153,9 @@ projects[webform][version] = 3.18
 projects[views][subdir] = contrib
 projects[views][version] = 3.5
 
+projects[views_fluidgrid][subdir] = contrib
+projects[views_fluidgrid][version] = 1.x-dev
+
 projects[views_content_cache][subdir] = contrib
 projects[views_content_cache][version] = 3.0-alpha2
 

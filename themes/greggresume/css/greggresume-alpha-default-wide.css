@@ -1,0 +1,169 @@
+/* @override 
+	http://dev.gregg.iaminawe.com/sites/dev.iaminawe.com/themes/greggresume/css/greggresume-alpha-default-wide.css?m0lm31
+	http://dev.gregg.iaminawe.com/sites/dev.iaminawe.com/themes/greggresume/css/greggresume-alpha-default-wide.css?m0lsoo
+	http://dev.gregg.iaminawe.com/sites/dev.iaminawe.com/themes/greggresume/css/greggresume-alpha-default-wide.css?m2wyah
+	http://dev.gregg.iaminawe.com/sites/dev.iaminawe.com/themes/greggresume/css/greggresume-alpha-default-wide.css?m3qpy5
+	http://dev.gregg.iaminawe.com/sites/dev.iaminawe.com/themes/greggresume/css/greggresume-alpha-default-wide.css?m45i3j
+	http://dev.gregg.iaminawe.com/sites/dev.iaminawe.com/themes/greggresume/css/greggresume-alpha-default-wide.css?m46qbj
+	http://dev.gregg.iaminawe.com/sites/dev.iaminawe.com/themes/greggresume/css/greggresume-alpha-default-wide.css?m46vfh
+	http://dev.gregg.iaminawe.com/sites/dev.iaminawe.com/themes/greggresume/css/greggresume-alpha-default-wide.css?m48hgt
+	http://dev.greggcoppen.com/sites/dev.iaminawe.com/themes/greggresume/css/greggresume-alpha-default-wide.css?m49bf6
+	http://dev.greggcoppen.com/sites/dev.iaminawe.com/themes/greggresume/css/greggresume-alpha-default-wide.css?m4e5fp
+	http://dev.greggcoppen.com/sites/dev.iaminawe.com/themes/greggresume/css/greggresume-alpha-default-wide.css?m4e7d1
+	http://dev.greggcoppen.com/sites/dev.iaminawe.com/themes/greggresume/css/greggresume-alpha-default-wide.css?m4eamc
+	http://dev.greggcoppen.com/sites/dev.iaminawe.com/themes/greggresume/css/greggresume-alpha-default-wide.css?m4ebds
+	http://dev.greggcoppen.com/sites/dev.iaminawe.com/themes/omega/alpha/css/grid/alpha_default/wide/alpha-default-wide-12.css?m4ef7f
+	http://dev.greggcoppen.com/sites/dev.iaminawe.com/themes/greggresume/css/greggresume-alpha-default-wide.css?m4ef7f
+	http://dev.greggcoppen.com/sites/dev.iaminawe.com/themes/greggresume/css/greggresume-alpha-default-wide.css?m4eh6z
+	http://dev.greggcoppen.com/sites/dev.iaminawe.com/themes/greggresume/css/greggresume-alpha-default-wide.css?m4ejyx
+	http://dev.greggcoppen.com/sites/dev.iaminawe.com/themes/greggresume/css/greggresume-alpha-default-wide.css?m4em21
+	http://dev.greggcoppen.com/sites/dev.iaminawe.com/themes/greggresume/css/greggresume-alpha-default-wide.css?m4en5f
+*/
+
+/* This file will hold styles that are loaded using the same media query as the wide grid. */
+#logo{
+  margin-left: -30px;
+}
+.masonry-brick{
+  width: 280px !important;
+}
+
+.group-left{
+  width: 60% !important;
+}
+.group-middle{
+  width: 32% !important;
+}
+
+hr {
+  background-image: url(../images/Lightly-Raised-Line.png);
+  display: block;
+  height: 30px;
+  background-color: transparent;
+  width: 107%;
+  margin-left: -26px;
+}
+
+.masonry-brick{
+background-color: #fff;
+width: 300px !important;
+margin-bottom: 10px;
+box-shadow: 0px 2px 5px #888;
+text-shadow: rgba(255,255,255,1) 0px 1px 0px;
+position: relative;
+left: 0px !important;
+
+}
+
+.portfolio-item-view {
+    width: 300px;
+    margin: 0px;
+    float: left;
+    border: 5px solid #fff;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: default;
+    
+
+}
+.portfolio-item-view .caption, .portfolio-item-view .content {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+.portfolio-item-view img {
+    display: block;
+    position: relative
+}
+
+
+
+.view-fifth img {
+    -moz-transition: all 0.3s ease-in-out 0s;
+   -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+.view-fifth .caption {
+    -moz-transform: translateY(170px);
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -webkit-transform: translateY(170px);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transform: translateY(300px);
+    transition: all 0.3s ease-in-out 0s;
+    background-color: rgba(255, 255, 255, 0.8);
+    opacity: 1;
+}
+
+.view-fifth h2 {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
+    box-shadow: 0 1px 3px rgba(159, 141, 140, 0.5);
+    color: #000000;
+    font-size: 18px;
+     border-bottom: 1px solid #CCC !important;
+    
+}
+.view-fifth:hover .h2{
+    -moz-transform: translateY(0px);
+     -webkit-transform: translateY(0px);
+     transform: translateY(0px);
+     border-bottom: 1px solid #FFF !important;
+}
+
+
+.view-fifth p {
+    -moz-transition: all 0.2s linear 0s;
+    -webkit-transition: all 0.2s linear 0s;
+    transition:  all 0.2s linear 0s;
+    color: #333333;
+    opacity: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.view-fifth .button-wrap{
+    -moz-transition: all 0.2s linear 0s;
+    -webkit-transition: all 0.2s linear 0s;
+    transition:  all 0.2s linear 0s;
+    color: #333333;
+    opacity: 0;
+    display: block;
+
+}
+
+.view-fifth:hover .caption {
+    -moz-transform: translateY(0px);
+     -webkit-transform: translateY(0px);
+     transform: translateY(0px);
+}
+.view-fifth:hover img {
+    -moz-transform: translateY(-300px);
+    -webkit-transform: translateY(-300px);
+    transform: translateY(-300px);
+}
+.view-fifth:hover p {
+    opacity: 1;
+}
+.view-fifth:hover .button-wrap{
+    opacity: 1;
+}
+
+
+#block-block-5{
+  width: 240px !important;
+  margin-left: 50px;
+  font-variant: small-caps;
+}
+
+#block-block-6{
+margin-left: 50px;
+
+}
+
+#flexslider_views_slideshow_main_testimonials-block .flex-direction-nav li .next {background-position: -50px -110px; right: 35px;}
+#flexslider_views_slideshow_main_testimonials-block .flex-direction-nav li .prev {background-position: -10px -110px;
+left: 270px;}

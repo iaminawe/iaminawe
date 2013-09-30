@@ -1,0 +1,354 @@
+/* @override 
+	http://dev.gregg.iaminawe.com/sites/dev.iaminawe.com/themes/greggresume/css/greggresume-alpha-default-normal.css?m0lm31
+	http://dev.gregg.iaminawe.com/sites/dev.iaminawe.com/themes/greggresume/css/greggresume-alpha-default-normal.css?m0lsoo
+	http://dev.gregg.iaminawe.com/sites/dev.iaminawe.com/themes/greggresume/css/greggresume-alpha-default-normal.css?m3qpy5
+	http://dev.gregg.iaminawe.com/sites/dev.iaminawe.com/themes/greggresume/css/greggresume-alpha-default-normal.css?m3uemo
+	http://dev.gregg.iaminawe.com/sites/dev.iaminawe.com/themes/greggresume/css/greggresume-alpha-default-normal.css?m3uf73
+	http://dev.gregg.iaminawe.com/sites/dev.iaminawe.com/themes/greggresume/css/greggresume-alpha-default-normal.css?m45i3j
+	http://dev.gregg.iaminawe.com/sites/dev.iaminawe.com/themes/greggresume/css/greggresume-alpha-default-normal.css?m46qbj
+	http://dev.gregg.iaminawe.com/sites/dev.iaminawe.com/themes/greggresume/css/greggresume-alpha-default-normal.css?m46t5r
+	http://dev.gregg.iaminawe.com/sites/dev.iaminawe.com/themes/greggresume/css/greggresume-alpha-default-normal.css?m46vfh
+	http://dev.gregg.iaminawe.com/sites/dev.iaminawe.com/themes/greggresume/css/greggresume-alpha-default-normal.css?m48hgt
+	http://dev.greggcoppen.com/sites/dev.iaminawe.com/themes/greggresume/css/greggresume-alpha-default-normal.css?m49bf6
+	http://dev.greggcoppen.com/sites/dev.iaminawe.com/themes/greggresume/css/greggresume-alpha-default-normal.css?m4e5fp
+	http://dev.greggcoppen.com/sites/dev.iaminawe.com/themes/greggresume/css/greggresume-alpha-default-normal.css?m4e7d1
+	http://dev.greggcoppen.com/sites/dev.iaminawe.com/themes/greggresume/css/greggresume-alpha-default-normal.css?m4eamc
+	http://dev.greggcoppen.com/sites/dev.iaminawe.com/themes/greggresume/css/greggresume-alpha-default-normal.css?m4ebds
+	http://dev.greggcoppen.com/sites/dev.iaminawe.com/themes/greggresume/css/greggresume-alpha-default-normal.css?m4ef7f
+	http://dev.greggcoppen.com/sites/dev.iaminawe.com/themes/greggresume/css/greggresume-alpha-default-normal.css?m4eh6z
+	http://dev.greggcoppen.com/sites/dev.iaminawe.com/themes/greggresume/css/greggresume-alpha-default-normal.css?m4ejyx
+	http://dev.greggcoppen.com/sites/dev.iaminawe.com/themes/greggresume/css/greggresume-alpha-default-normal.css?m4em21
+	http://dev.greggcoppen.com/sites/dev.iaminawe.com/themes/greggresume/css/greggresume-alpha-default-normal.css?m4eq75
+	http://dev.greggcoppen.com/sites/dev.iaminawe.com/themes/greggresume/css/greggresume-alpha-default-normal.css?m5fllo
+
+/* This file will hold styles that are loaded using the same media query as the normal grid. */
+#logo{
+  margin-left: -30px;
+}
+
+h1.site-name,
+h2.site-name a {
+  font-size: 76px;
+  line-height: 50px;
+  padding: 3px;
+  position: relative;
+  top: -30px;
+ text-shadow: 0px 1px 5px #888;
+ color: white;
+text-shadow: rgb(187, 187, 187) 0px 1px 0px,
+    rgb(181, 181, 181) 0px 2px 0px,
+    rgb(172, 172, 172) 0px 3px 0px,
+    rgb(160, 160, 160) 0px 4px 0px,
+    rgb(145, 145, 145) 0px 5px 0px,
+    rgb(127, 127, 127) 0px 6px 0px,
+    rgba(0, 0, 0, 0.199219) 0px 7px 1px,
+    rgba(0, 0, 0, 0.296875) 0px 8px 6px;
+    margin-left: -240px;
+}
+
+h6.site-slogan{
+  color: #888;
+  font-style: italic;
+  font-size: 18px;
+  text-shadow: white 0 0 5px;
+  padding: 10px;
+  margin-top: -50px;
+  width: 100%;
+    margin-left: -220px ;
+
+}
+
+.twocolumn{
+-moz-column-count: 2;
+-moz-column-gap: 1em;
+-webkit-column-count: 2;
+-webkit-column-gap: 1em;
+
+}
+
+hr {
+  background-image: url(../images/Lightly-Raised-Line.png);
+  display: block;
+  height: 30px;
+  background-color: transparent;
+  width: 109%;
+  margin-left: -26px;
+}
+
+.masonry-brick{
+ background-color: #fff;
+width: 280px !important;
+  margin-bottom: 10px;
+ box-shadow: 0px 2px 5px #888;
+text-shadow: rgba(255,255,255,1) 0px 1px 0px;
+position: relative;
+left: 0px !important;
+
+}
+
+.masonry-brick img{
+
+}
+
+#block-block-6{
+margin-left: 30px;
+
+}
+
+
+
+.experience-row h3.position{
+  color:#bbb;
+
+   clear:both;
+   width:100%;
+border-top: 1px solid #CCC;
+letter-spacing: 0px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    text-align: right;
+    
+
+  }
+h4.web-url{
+    font: 18px Palatino, Baskerville, Times, Serif !important;
+    margin-top: -29px !important;
+    margin-bottom: 20px !important;
+    font-weight: bold !important;
+    font-style: italic !important;
+}
+
+.portfolio-item-view {
+    width: 270px;
+    margin: 0px;
+    float: left;
+    border: 5px solid #fff;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: default;
+
+}
+.portfolio-item-view .caption, .portfolio-item-view .content {
+    width: 90%;
+    height: 200px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+.portfolio-item-view img {
+    display: block;
+    position: relative
+}
+
+.view-fifth img {
+    -moz-transition: all 0.3s ease-in-out 0s;
+   -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+.view-fifth .caption {
+    -moz-transform: translateY(170px);
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -webkit-transform: translateY(170px);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transform: translateY(300px);
+    transition: all 0.3s ease-in-out 0s;
+    background-color: rgba(255, 255, 255, 0.8);
+    opacity: 1;
+}
+
+.view-fifth h2 {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
+    box-shadow: 0 1px 3px rgba(159, 141, 140, 0.5);
+    color: #000000;
+    font-size: 18px;
+    border-bottom: 1px solid #CCC !important;
+    
+}
+
+.view-fifth p {
+    -moz-transition: all 0.2s linear 0s;
+    -webkit-transition: all 0.2s linear 0s;
+    transition:  all 0.2s linear 0s;
+    color: #333333;
+    opacity: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.view-fifth .button-wrap{
+    -moz-transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    transition:  all 0.3s linear 0s;
+    color: #333333;
+    opacity: 0;
+    display: block;
+    left: -20px;
+
+}
+
+.view-fifth:hover .h2{
+    -moz-transform: translateY(0px);
+     -webkit-transform: translateY(0px);
+     transform: translateY(0px);
+     border-bottom: 1px solid #CCC !important;
+}
+
+.view-fifth:hover .caption {
+    -moz-transform: translateY(0px);
+     -webkit-transform: translateY(0px);
+     transform: translateY(0px);
+}
+.view-fifth:hover img {
+    -moz-transform: translateY(-300px);
+    -webkit-transform: translateY(-300px);
+    transform: translateY(-300px);
+}
+.view-fifth:hover p {
+    opacity: 1;
+}
+.view-fifth:hover .button-wrap{
+    opacity: 1;
+}
+
+
+
+#region-postscript-first{
+  width: 25% !important;
+}
+
+.region-postscript-second{
+    width: 33% !important;
+}
+
+.region-postscript-third{
+    width: 35% !important;
+}
+
+#flexslider_views_slideshow_main_testimonials-block .flex-direction-nav li .next {background-position: -50px -110px; right: 35px;}
+#flexslider_views_slideshow_main_testimonials-block .flex-direction-nav li .prev {background-position: -10px -110px;
+left: 160px;}
+
+
+/* Default Layout group left DS*/
+
+.node-type-design .group-left,
+.node-type-logo .group-left,
+.node-type-business-card .group-left,
+.node-type-tshirt .group-left,
+.node-type-website .group-left,
+.node-type-mobile .group-left,
+.node-type-packaging .group-left,
+.node-type-mobile .group-left
+{
+  width: 60% !important;
+  margin-right: 0;
+}
+
+.node-type-design .group-left img,
+.node-type-website .group-left img,
+.node-type-packaging .group-left img,
+.node-type-mobile .group-left img,
+.node-type-logo .group-left img,
+.node-type-business-card .group-left img
+{
+max-width: 100%;
+height:auto;
+
+}
+
+.node-type-design .group-left img{
+	width: 100%;
+}
+
+.node-type-packaging .group-left img{
+  max-width: 97%;
+}
+.node-type-video .group-left,
+.node-type-theatre .group-left{
+  width: 95%;
+  margin-right: 0;
+ 
+}
+
+
+
+/* Default Layout group middle DS*/
+
+.node-type-design .group-middle,
+.node-type-website .group-middle,
+.node-type-packaging .group-middle,
+.node-type-logo .group-middle,
+.node-type-mobile .group-middle,
+.node-type-business-card .group-middle,
+.node-type-tshirt .group-middle
+{
+  width: 35% !important;
+  margin-left: 30px;
+}
+
+.web-link{
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  padding-top: 5px;
+  margin-bottom: 5px;
+  border-bottom: dashed thin #ccc;
+  border-top: dashed thin #ccc;
+}
+
+.group-header span{
+ margin-left: 10px;
+ margin-right: 5px;
+ padding-left: 10px;
+  border-left: thin white solid ;
+float: none;
+}
+
+
+.node-type-video .group-middle,
+.node-type-theatre .group-middle{
+  width: 95%;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+
+.nodetypespan{
+  position: absolute;
+  display: block;
+  width: 70%;
+  text-align: center;
+  margin-top: -60px;
+  z-index: 99;
+  left:  120px;
+}
+
+/* Default Layout group right DS*/
+.node-type-video .group-right,
+.node-type-theatre .group-right{
+  width: 66%;
+  float: left;
+}
+
+#block-block-5{
+  width: 240px !important;
+  margin-left: 30px;
+}
+
+h4.employment-period{
+position: relative;
+  color:#888;
+   margin-bottom: 0px;
+float: right;
+ display: block;
+ width: 100%;
+  right: 10px;
+    font: 12px;text-align: right;
+    margin-top: -25px;
+
+
+}
+
+
