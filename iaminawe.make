@@ -19,7 +19,7 @@ projects[entityreference][version] = 1.x-dev
 projects[entityreference][patch][1699378] = http://drupal.org/files/view-argument-as-token-1699378-41.patch
 
 projects[field_group][subdir] = contrib
-projects[field_group][version] = 1.1
+projects[field_group][version] = 1.3
 
 projects[field_collection][subdir] = contrib
 projects[field_collection][version] = 1.0-beta5
@@ -28,7 +28,7 @@ projects[field_collection_views][subdir] = contrib
 projects[field_collection_views][version] = 1.0-beta3
 
 projects[link][subdir] = contrib
-projects[link][version] = 1.0
+projects[link][version] = 1.1
 
 projects[feedback][subdir] = contrib
 projects[feedback][version] = 2.x-dev
@@ -55,13 +55,13 @@ projects[transliteration][version] = 3.1
 ;;;;;;;;;
 
 projects[backup_migrate][subdir] = contrib
-projects[backup_migrate][version] = 2.4
+projects[backup_migrate][version] = 2.7
 
 projects[better_formats][subdir] = contrib
 projects[better_formats][version] = 1.0-beta1
 
 projects[context][subdir] = contrib
-projects[context][version] = 3.0-beta6
+projects[context][version] = 3.0-rc1
 
 projects[cpn][subdir] = contrib
 projects[cpn][version] = 1.x-dev
@@ -100,7 +100,7 @@ projects[html5_tools][subdir] = contrib
 projects[html5_tools][version] = 1.2
 
 projects[elements][subdir] = contrib
-projects[elements][version] = 1.2
+projects[elements][version] = 1.4
 
 projects[eva][subdir] = contrib
 projects[eva][version] = 1.2
@@ -151,7 +151,7 @@ projects[webform][subdir] = contrib
 projects[webform][version] = 3.18
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.5
+projects[views][version] = 3.7
 
 projects[views_fluidgrid][subdir] = contrib
 projects[views_fluidgrid][version] = 1.x-dev
@@ -208,7 +208,7 @@ projects[backports][subdir] = contrib
 projects[backports][version] = 1.0-alpha1
 
 projects[block_class][subdir] = contrib
-projects[block_class][version] = 1.2
+projects[block_class][version] = 1.3
 
 projects[betterlogin][subdir] = contrib
 projects[betterlogin][version] = 1.1
@@ -231,20 +231,20 @@ projects[domain_content_types][subdir] = "contrib"
 projects[domain_menu_access][version] = "1.2"
 projects[domain_menu_access][subdir] = "contrib"
 
-projects[domain_path][version] = "1.0-beta3"
-projects[domain_path][subdir] = "contrib"
+projects[domain_path][version] = 1.0-beta4
+projects[domain_path][subdir] = contrib
 
-projects[domain_views][version] = "1.5"
-projects[domain_views][subdir] = "contrib"
+projects[domain_views][version] = 1.5
+projects[domain_views][subdir] = contrib
 
-projects[domaincontext][version] = "1.0-alpha1"
-projects[domaincontext][subdir] = "contrib"
+projects[domaincontext][version] = 1.0-alpha1
+projects[domaincontext][subdir] = contrib
 
-projects[domain_xmlsitemap][version] = "1.0-beta2"
-projects[domain_xmlsitemap][subdir] = "contrib"
+projects[domain_xmlsitemap][version] = 1.0-beta2
+projects[domain_xmlsitemap][subdir] = contrib
 
-projects[fpa][version] = "2.2"
-projects[fpa][subdir] = "contrib"
+projects[fpa][version] = 2.3
+projects[fpa][subdir] = contrib
 
 projects[menu_attributes][subdir] = contrib
 projects[menu_attributes][version] = 1.0-rc2
@@ -252,11 +252,11 @@ projects[menu_attributes][version] = 1.0-rc2
 projects[module_filter][subdir] = contrib
 projects[module_filter][version] = 1.7
 
-projects[nocurrent_pass][version] = "1.0"
-projects[nocurrent_pass][subdir] = "contrib"
+projects[nocurrent_pass][version] = 1.0
+projects[nocurrent_pass][subdir] = contrib
 
 projects[options_element][subdir] = contrib
-projects[options_element][version] = 1.8
+projects[options_element][version] = 1.9
 
 projects[simplified_menu_admin][subdir] = contrib
 projects[simplified_menu_admin][version] = 1.0-beta2
@@ -264,55 +264,51 @@ projects[simplified_menu_admin][version] = 1.0-beta2
 projects[toolbar_admin_menu][subdir] = contrib
 projects[toolbar_admin_menu][version] = 1.0
 
-projects[content_taxonomy][version] = "1.0-beta1"
-projects[content_taxonomy][subdir] = "contrib"
+projects[content_taxonomy][version] = 1.0-beta1
+projects[content_taxonomy][subdir] = contrib
 
-projects[references][version] = "2.1"
-projects[references][subdir] = "contrib"
+projects[references][version] = 2.1
+projects[references][subdir] = contrib
 
-projects[flag][version] = "3.2"
-projects[flag][subdir] = "contrib"
+projects[flag][version] = 3.2
+projects[flag][subdir] = contrib
 
-projects[flexslider][version] = "2.0-alpha3"
-projects[flexslider][subdir] = "contrib"
+projects[flexslider][version] = 2.0-alpha3
+projects[flexslider][subdir] = contrib
 
-projects[flexslider_views_slideshow][version] = "2.x-dev"
-projects[flexslider_views_slideshow][subdir] = "contrib"
+projects[typogrify][version] = 1.0-rc7
+projects[typogrify][subdir] = contrib
 
-projects[typogrify][version] = "1.0-rc2"
-projects[typogrify][subdir] = "contrib"
+projects[media][version] = 1.3
+projects[media][subdir] = contrib
 
-projects[media][version] = "1.3"
-projects[media][subdir] = "contrib"
+projects[media_vimeo][version] = 1.0-beta5
+projects[media_vimeo][subdir] = contrib
 
-projects[media_vimeo][version] = "1.0-beta5"
-projects[media_vimeo][subdir] = "contrib"
+projects[media_youtube][version] = 1.0-beta3
+projects[media_youtube][subdir] = contrib
 
-projects[media_youtube][version] = "1.0-beta3"
-projects[media_youtube][subdir] = "contrib"
-
-projects[plupload][version] = "1.3"
-projects[plupload][subdir] = "contrib"
+projects[plupload][version] = 1.3
+projects[plupload][subdir] = contrib
 
 
-
-projects[prod_check][version] = "1.3"
+projects[prod_check][version] = 1.7
 projects[prod_check][subdir] = "contrib"
 
-projects[adaptive_image][version] = "1.4"
+projects[adaptive_image][version] = 1.4
 projects[adaptive_image][subdir] = "contrib"
 
-projects[bg_image][version] = "1.1"
+projects[bg_image][version] = 1.1
 projects[bg_image][subdir] = "contrib"
 
-projects[browserclass][version] = "1.5"
+projects[browserclass][version] = 1.5
 projects[browserclass][subdir] = "contrib"
 
-projects[colorbox][version] = "2.4"
+projects[colorbox][version] = 2.4
 projects[colorbox][subdir] = "contrib"
 
-projects[custom_pagers][version] = "1.x-dev"
-projects[custom_pagers][subdir] = "contrib"
+projects[custom_pagers][version] = 1.x-dev
+projects[custom_pagers][subdir] = contrib
 
 projects[fitvids][version] = "1.14"
 projects[fitvids][subdir] = "contrib"
@@ -336,7 +332,7 @@ projects[plup][subdir] = "contrib"
 projects[robotstxt][version] = "1.x-dev"
 projects[robotstxt][subdir] = "contrib"
 
-projects[scroll_to_top][version] = "2.0-beta5"
+projects[scroll_to_top][version] = "2.1"
 projects[scroll_to_top][subdir] = "contrib"
 
 projects[securesite][version] = "2.x-dev"
@@ -345,7 +341,7 @@ projects[securesite][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
 projects[strongarm][subdir] = "contrib"
 
-projects[token][version] = "1.0"
+projects[token][version] = "1.5"
 projects[token][subdir] = "contrib"
 
 projects[triple_double][version] = "1.0"
@@ -393,12 +389,11 @@ projects[views_infinite_scroll][subdir] = contrib
 projects[views_slideshow][version] = 3.x-dev
 projects[views_slideshow][subdir] = contrib
 
-projects[webform][version] = 3.17
+projects[webform][version] = 3.19
 projects[webform][subdir] = contrib
 
-projects[xmlsitemap][version] = 2.0-beta2
+projects[xmlsitemap][version] = 2.0-rc2
 projects[xmlsitemap][subdir] = contrib
-
 
 
 ;;;;;;;;;
@@ -406,10 +401,10 @@ projects[xmlsitemap][subdir] = contrib
 ;;;;;;;;;
 
 projects[admin_menu][subdir] = contrib
-projects[admin_menu][version] = 3.0-rc3
+projects[admin_menu][version] = 3.0-rc4
 
 projects[admin_views][subdir] = contrib
-projects[admin_views][version] = 1.0
+projects[admin_views][version] = 1.2
 
 projects[devel][subdir] = contrib
 projects[devel][version] = 1.1
