@@ -291,9 +291,6 @@ projects[media_youtube][subdir] = contrib
 projects[plupload][version] = 1.3
 projects[plupload][subdir] = contrib
 
-projects[prod_check][version] = 1.3
-projects[prod_check][subdir] = "contrib"
-
 projects[adaptive_image][version] = 1.4
 projects[adaptive_image][subdir] = "contrib"
 
