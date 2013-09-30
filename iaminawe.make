@@ -276,6 +276,9 @@ projects[flag][subdir] = "contrib"
 projects[flexslider][version] = "2.0-alpha3"
 projects[flexslider][subdir] = "contrib"
 
+projects[flexslider_views_slideshow][version] = "2.x-dev"
+projects[flexslider_views_slideshow][subdir] = "contrib"
+
 projects[typogrify][version] = "1.0-rc2"
 projects[typogrify][subdir] = "contrib"
 
