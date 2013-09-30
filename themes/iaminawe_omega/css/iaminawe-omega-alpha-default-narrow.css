@@ -1,1 +1,401 @@
-/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+/* @override 
+	http://dev.server2.iaminawe.com/sites/dev.server2.iaminawe.com/themes/iaminawe_omega/css/iaminawe-omega-alpha-default-narrow.css?m3b75p
+	http://dev.server2.iaminawe.com/sites/dev.server2.iaminawe.com/themes/iaminawe_omega/css/iaminawe-omega-alpha-default-narrow.css?m3knyz
+	http://dev.server2.iaminawe.com/sites/dev.server2.iaminawe.com/themes/iaminawe_omega/css/iaminawe-omega-alpha-default-narrow.css?m3kuvk
+	http://dev.server2.iaminawe.com/sites/dev.server2.iaminawe.com/themes/iaminawe_omega/css/iaminawe-omega-alpha-default-narrow.css?m3l147
+	http://dev.iaminawe.com/sites/dev.iaminawe.com/themes/iaminawe_omega/css/iaminawe-omega-alpha-default-narrow.css?m5fllo
+
+
+
+
+/* Listing page */
+
+.masonry-brick{
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 320px;
+ 
+}
+
+.masonry-brick img{
+  max-width: 100%;
+}
+
+.masonry-brick h3{
+  font-size: 18px;
+   margin-top: 8px;
+   margin-bottom: 5px;
+}
+
+
+
+/*Home Page*/
+/*3 carousel layout*/
+
+
+
+.front .flexslider h3{
+  margin-top: 10px;
+  margin-left:15px;
+  margin-bottom: 0;
+  font-size: 110%;
+}
+
+.front .flexslider em{
+  margin-left:15px;
+  font-size: 16px;
+}
+#block-views-web-block,
+#block-views-motion-block,
+#block-views-design-block{
+
+  float: left;
+}  
+
+#flexslider_views_slideshow_main_web-block,
+#flexslider_views_slideshow_main_motion-block,
+#flexslider_views_slideshow_main_design-block{
+  width: 100%;
+}
+
+#block-views-web-block{
+  width: 290px !important;
+  z-index: 999 !important;
+  position: relative;
+  margin-left: -10px;
+  float: left;
+  
+}
+
+
+#block-views-design-block{
+  width: 210px !important;
+  z-index: 10 !important;
+  position: relative;
+  margin-top: 20px;
+  float: left;
+  margin-left: 0px;
+}
+
+#block-views-design-block .next{
+  display: none;
+}
+
+#block-views-motion-block{
+  width: 210px !important;
+  z-index: 10 !important;
+  position: relative;
+  margin-top: 20px;
+  float: left;
+  margin-left: -5px;
+}
+
+#block-views-motion-block .prev{
+  display: none;
+}
+
+
+#block-system-main-menu{
+  width:90%;
+  font-size:20px;
+  margin-top:80px!important;
+  background-color: transparent;
+  height: 40px;
+
+	position: absolute;
+	top: 80px;
+	left: 85px;
+
+
+}
+
+/*iaminawe slogan*/
+#block-block-4{
+  padding: 10px;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  background: url(../images/textureblock.gif) center center;
+  font-weight: bold;
+  font-style: italic;
+  margin-top:10px;
+  left: 0;
+
+}
+
+#block-block-4 p{
+  margin-bottom: 0;
+}
+
+
+
+/*Content Nodes Display Suite Regions*/
+#section-content{
+position: relative;
+
+top: -180px;
+}
+
+
+.zone-branding-wrapper{
+  background-image: url(../images/bluewc.png);
+  height: 300px;
+}
+
+.page-projects-design .zone-branding-wrapper{
+  background-image: url(../images/bluewc.png);
+  height: 300px;
+}
+
+.page-projects-web .zone-branding-wrapper{
+  background-image: url(../images/bluewc.png);
+  height: 300px;
+}
+
+.page-projects-motion .zone-branding-wrapper{
+  background-image: url(../images/bluewc.png);
+  height: 300px;
+}
+
+.node-page{
+  padding: 10px;
+}
+
+.node-page .content{
+  background-image: url(../images/textureblock.gif);
+  padding: 10px;
+}
+
+.view-mode-full{
+  background-color: rgba(255,255,255,0.90);
+  padding: 10px;
+  width: 97%;
+}
+
+.view-mode-full img{
+  border: 8px solid white;
+  -webkit-box-shadow: 0px 2px 4px #888;
+  -moz-box-shadow: 0px 2p 4px #888;
+  box-shadow: 0px 2p 4px #888;
+  margin-bottom: 10px;
+}
+
+.node ol,
+.node ul {
+  padding-left: 1.2em;
+}
+
+.node ul.inline,
+.node ol.inline {
+  padding-left: 0;
+}
+
+/* Group Header DS*/
+.group-header{
+  padding-bottom: 0px;
+  border-bottom: thin #ccc solid;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  float: left;
+  width: 100%;
+  clear: both;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 5px;
+  
+ 
+}
+
+.group-header .label-inline{
+  float: left;
+}
+
+.group-header span.post-date {
+  float: left;
+  margin-left: 0;
+  padding-left: 0;
+}
+.group-header span.client{
+ float: left;
+ position: relative;
+
+}
+
+.group-header span.category{
+   float: left;
+ position: relative;
+ margin-left: 0;
+}
+
+.group-header span.tags{
+ float: left;
+ position: relative;
+ margin-left: 0;
+}
+
+.group-header span{
+ margin-left: 10px;
+ margin-right: 5px;
+ padding-left: 10px;
+
+ margin-top: 5px;
+}
+
+.group-header a{
+	
+  margin-right: 5px;
+}
+
+.pager{
+  clear: both !important;
+  
+  margin-bottom: 10px !important;
+}
+ul.flippy{
+
+  padding:5px;
+  font-weight: bold;
+position: relative;
+  clear: both !important;
+height: 35px;
+ -moz-box-shadow: 0 4px 4px #ccc;
+   -webkit-box-shadow: 0 3px 6px #ccc;
+   margin-bottom: 10px !important;
+z-index: 99;
+}
+
+.flippy .previous {
+ position: absolute;
+ left: 5px;
+  padding: 5px;
+  font-style: italic;
+   
+}
+
+.flippy .next {
+ position: absolute;
+ right: 5px;
+ padding: 5px;
+   font-style: italic;
+
+}
+
+/* Group Left DS*/
+.group-left{
+  box-shadow:inset  -6px 0px 12px #ccc;
+  padding: 10px;
+  background-color: rgba(236,236,236,0.7);
+
+}
+
+.group-left fieldset{
+  clear: both;
+  border-top: thin solid white;
+  margin-top: 10px !important;
+}
+.group-left .collapse-processed{
+  height: 20px !important;
+  margin-top: 30px;
+}
+
+.group-left .label-inline{
+    border-top: thin solid white;
+    margin-top: 10px;
+}
+
+/* Group Middle DS*/
+.group-middle .label-inline{
+  float: left;
+}
+
+.group-middle h2{
+  line-height: .9em;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+}
+
+/* Default Layout group left DS*/
+
+.node-type-design .group-left,
+.node-type-logo .group-left,
+.node-type-business-card .group-left,
+.node-type-tshirt .group-left,
+.node-type-website .group-left,
+.node-type-mobile .group-left,
+.node-type-packaging .group-left,
+.node-type-mobile .group-left
+{
+  width: 97%;
+  margin-right: 0;
+}
+
+.node-type-design .group-left img,
+.node-type-website .group-left img,
+.node-type-packaging .group-left img,
+.node-type-mobile .group-left img,
+.node-type-logo .group-left img,
+.node-type-business-card .group-left img
+{
+max-width: 98%;
+height:auto;
+
+}
+
+.node-type-design .group-left img{
+	width: 100%;
+}
+
+.node-type-packaging .group-left img{
+  max-width: 98%;
+}
+.node-type-video .group-left,
+.node-type-theatre .group-left{
+  width: 95%;
+  margin-right: 0;
+ 
+}
+
+
+
+/* Default Layout group middle DS*/
+
+.node-type-design .group-middle,
+.node-type-website .group-middle,
+.node-type-packaging .group-middle,
+.node-type-logo .group-middle,
+.node-type-business-card .group-middle,
+.node-type-tshirt .group-middle,
+.node-type-mobile .group-middle
+{
+  width: 90%;
+  margin-left: 10px;
+}
+
+.web-link{
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  padding-top: 5px;
+  margin-bottom: 5px;
+  border-bottom: dashed thin #ccc;
+  border-top: dashed thin #ccc;
+}
+
+
+
+.node-type-video .group-middle,
+.node-type-theatre .group-middle{
+  width: 95%;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+
+/* Default Layout group right DS*/
+.node-type-video .group-right,
+.node-type-theatre .group-right{
+  width: 66%;
+  float: left;
+}
