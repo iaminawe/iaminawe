@@ -332,56 +332,56 @@ projects[plup][subdir] = "contrib"
 projects[robotstxt][version] = "1.x-dev"
 projects[robotstxt][subdir] = "contrib"
 
-projects[scroll_to_top][version] = "2.1"
-projects[scroll_to_top][subdir] = "contrib"
+projects[scroll_to_top][version] = 2.1
+projects[scroll_to_top][subdir] = contrib
 
-projects[securesite][version] = "2.x-dev"
-projects[securesite][subdir] = "contrib"
+projects[securesite][version] = 2.x-dev
+projects[securesite][subdir] = contrib
 
-projects[strongarm][version] = "2.0"
-projects[strongarm][subdir] = "contrib"
+projects[strongarm][version] = 2.0
+projects[strongarm][subdir] = contrib
 
-projects[token][version] = "1.5"
-projects[token][subdir] = "contrib"
+projects[token][version] = 1.5
+projects[token][subdir] = contrib
 
-projects[triple_double][version] = "1.0"
-projects[triple_double][subdir] = "contrib"
+projects[triple_double][version] = 1.0
+projects[triple_double][subdir] = contrib
 
-projects[twitter_pull][version] = "2.0-alpha2"
-projects[twitter_pull][subdir] = "contrib"
+projects[twitter_pull][version] = 2.0-alpha2
+projects[twitter_pull][subdir] = contrib
 
-projects[twitter][version] = "5.8"
-projects[twitter][subdir] = "contrib"
+projects[twitter][version] = 5.8
+projects[twitter][subdir] = contrib
 
-projects[oauth][version] = "3.1"
-projects[oauth][subdir] = "contrib"
+projects[oauth][version] = 3.1
+projects[oauth][subdir] = contrib
 
-projects[sharethis][version] = "2.5"
-projects[sharethis][subdir] = "contrib"
+projects[sharethis][version] = 2.5
+projects[sharethis][subdir] = contrib
 
-projects[google_analytics][version] = "1.3"
-projects[google_analytics][subdir] = "contrib"
+projects[google_analytics][version] = 1.3
+projects[google_analytics][subdir] = contrib
 
-projects[taxonomy_manager][version] = "1.0"
-projects[taxonomy_manager][subdir] = "contrib"
+projects[taxonomy_manager][version] = 1.0
+projects[taxonomy_manager][subdir] = contrib
 
-projects[term_merge][version] = "2.0-beta2"
-projects[term_merge][subdir] = "contrib"
+projects[term_merge][version] = 2.0-beta2
+projects[term_merge][subdir] = contrib
 
-projects[taxonomy_menu][version] = "1.2"
-projects[taxonomy_menu][subdir] = "contrib"
+projects[taxonomy_menu][version] = 1.2
+projects[taxonomy_menu][subdir] = contrib
 
-projects[delta][version] = "3.0-beta9"
-projects[delta][subdir] = "contrib"
+projects[delta][version] = 3.0-beta11
+projects[delta][subdir] = contrib
 
-projects[omega_tools][version] = "3.0-rc4"
-projects[omega_tools][subdir] = "contrib"
+projects[omega_tools][version] = 3.0-rc4
+projects[omega_tools][subdir] = contrib
 
-projects[extlink][version] = "1.12"
-projects[extlink][subdir] = "contrib"
+projects[extlink][version] = 1.12
+projects[extlink][subdir] = contrib
 
-projects[semanticviews][version] = "1.x-dev"
-projects[semanticviews][subdir] = "contrib"
+projects[semanticviews][version] = 1.x-dev
+projects[semanticviews][subdir] = contrib
 
 projects[views_infinite_scroll][version] = 1.1
 projects[views_infinite_scroll][subdir] = contrib
