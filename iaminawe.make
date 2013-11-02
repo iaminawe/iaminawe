@@ -155,10 +155,6 @@ projects[references_dialog][subdir] = contrib
 projects[references_dialog][version] = 1.x-dev
 projects[references_dialog][type] = module
 
-projects[responsive_menus][subdir] = contrib
-projects[responsive_menus][version] = 1.x-dev
-projects[responsive_menus] = module
-
 projects[rules][subdir] = contrib
 projects[rules][version] = 2.2
 projects[rules][type] = module
@@ -174,10 +170,6 @@ projects[token][type] = module
 projects[token_tweaks][subdir] = contrib
 projects[token_tweaks][version] = 1.x-dev
 projects[token_tweaks][type] = module
-
-projects[webform][subdir] = contrib
-projects[webform][version] = 3.18
-projects[webform][type] = module
 
 projects[views][subdir] = contrib
 projects[views][version] = 3.7
@@ -295,154 +287,195 @@ projects[domaincontext][type] = module
 
 projects[domain_xmlsitemap][version] = 1.0-beta2
 projects[domain_xmlsitemap][subdir] = contrib
+projects[domain_xmlsitemap][type] = module
 
 projects[fpa][version] = 2.3
 projects[fpa][subdir] = contrib
+projects[fpa][type] = module
 
 projects[menu_attributes][subdir] = contrib
 projects[menu_attributes][version] = 1.0-rc2
+projects[menu_attributes][type] = module
 
 projects[module_filter][subdir] = contrib
 projects[module_filter][version] = 1.7
+projects[module_filter][type] = module
 
 projects[nocurrent_pass][version] = 1.0
 projects[nocurrent_pass][subdir] = contrib
+projects[nocurrent_pass][type] = module
 
 projects[options_element][subdir] = contrib
 projects[options_element][version] = 1.9
+projects[options_element][type] = module
 
 projects[simplified_menu_admin][subdir] = contrib
 projects[simplified_menu_admin][version] = 1.0-beta2
+projects[simplified_menu_admin][type] = module
 
 projects[toolbar_admin_menu][subdir] = contrib
 projects[toolbar_admin_menu][version] = 1.0
+projects[toolbar_admin_menu][type] = module
 
 projects[content_taxonomy][version] = 1.0-beta1
 projects[content_taxonomy][subdir] = contrib
+projects[content_taxonomy][type] = module
 
 projects[references][version] = 2.1
 projects[references][subdir] = contrib
+projects[references][type] = module
 
 projects[flag][version] = 3.2
 projects[flag][subdir] = contrib
+projects[flag][type] = module
 
 projects[flexslider][version] = 2.0-alpha3
 projects[flexslider][subdir] = contrib
+projects[flexslider][type] = module
 
 projects[typogrify][version] = 1.0-rc7
 projects[typogrify][subdir] = contrib
+projects[typogrify][type] = module
 
 projects[media][version] = 1.3
 projects[media][subdir] = contrib
+projects[media][type] = module
 
 projects[media_vimeo][version] = 1.0-beta5
 projects[media_vimeo][subdir] = contrib
+projects[media_vimeo][type] = module
 
 projects[media_youtube][version] = 1.0-beta3
 projects[media_youtube][subdir] = contrib
+projects[media_youtube][type] = module
 
 projects[plupload][version] = 1.3
 projects[plupload][subdir] = contrib
+projects[plupload][type] = module
 
 projects[adaptive_image][version] = 1.4
-projects[adaptive_image][subdir] = "contrib"
+projects[adaptive_image][subdir] = contrib
+projects[adaptive_image][type] = module
 
 projects[bg_image][version] = 1.1
-projects[bg_image][subdir] = "contrib"
+projects[bg_image][subdir] = contrib
+projects[bg_image][type] = module
 
 projects[browserclass][version] = 1.5
 projects[browserclass][subdir] = "contrib"
+projects[browserclass][type] = module
 
 projects[colorbox][version] = 2.4
 projects[colorbox][subdir] = "contrib"
+projects[colorbox][type] = module
 
 projects[custom_pagers][version] = 1.x-dev
 projects[custom_pagers][subdir] = contrib
+projects[custom_pagers][type] = module
 
-projects[fitvids][version] = "1.14"
-projects[fitvids][subdir] = "contrib"
+projects[fitvids][version] = 1.14
+projects[fitvids][subdir] = contrib
+projects[fitvids][type] = module
 
-projects[flippy][version] = "1.x-dev"
-projects[flippy][subdir] = "contrib"
-
-projects[galleria][version] = "1.0-beta3"
-projects[galleria][subdir] = "contrib"
-
+projects[galleria][version] = 1.0-beta3
+projects[galleria][subdir] = contrib
+projects[galleria][type] = module
 
 projects[menu_block][version] = "2.3"
-projects[menu_block][subdir] = "contrib"
+projects[menu_block][subdir] = contrib
+projects[menu_block][type] = module
 
-projects[multiform][version] = "1.0"
-projects[multiform][subdir] = "contrib"
+projects[multiform][version] = 1.0
+projects[multiform][subdir] = contrib
+projects[multiform][type] = module
 
 projects[plup][version] = "1.0-alpha1"
 projects[plup][subdir] = "contrib"
-
-projects[robotstxt][version] = "1.x-dev"
-projects[robotstxt][subdir] = "contrib"
+projects[plup][type] = module
 
 projects[scroll_to_top][version] = 2.1
 projects[scroll_to_top][subdir] = contrib
+projects[scroll_to_top][type] = module
 
 projects[securesite][version] = 2.x-dev
 projects[securesite][subdir] = contrib
+projects[securesite][type] = module
 
 projects[strongarm][version] = 2.0
 projects[strongarm][subdir] = contrib
+projects[strongarm][type] = module
 
 projects[token][version] = 1.5
 projects[token][subdir] = contrib
+projects[token][type] = module
 
 projects[triple_double][version] = 1.0
 projects[triple_double][subdir] = contrib
+projects[triple_double][type] = module
 
 projects[twitter_pull][version] = 2.0-alpha2
 projects[twitter_pull][subdir] = contrib
+projects[twitter_pull][type] = module
 
 projects[twitter][version] = 5.8
 projects[twitter][subdir] = contrib
+projects[twitter][type] = module
 
 projects[oauth][version] = 3.1
 projects[oauth][subdir] = contrib
+projects[oauth][type] = module
 
 projects[sharethis][version] = 2.5
 projects[sharethis][subdir] = contrib
+projects[sharethis][type] = module
 
 projects[google_analytics][version] = 1.3
 projects[google_analytics][subdir] = contrib
+projects[google_analytics][type] = module
 
 projects[taxonomy_manager][version] = 1.0
 projects[taxonomy_manager][subdir] = contrib
+projects[taxonomy_manager][type] = module
 
 projects[term_merge][version] = 2.0-beta2
 projects[term_merge][subdir] = contrib
+projects[term_merge][type] = module
 
 projects[taxonomy_menu][version] = 1.2
 projects[taxonomy_menu][subdir] = contrib
+projects[taxonomy_menu][type] = module
 
 projects[delta][version] = 3.0-beta11
 projects[delta][subdir] = contrib
+projects[delta][type] = module
 
 projects[omega_tools][version] = 3.0-rc4
 projects[omega_tools][subdir] = contrib
+projects[omega_tools][type] = module
 
 projects[extlink][version] = 1.12
 projects[extlink][subdir] = contrib
+projects[extlink][type] = module
 
 projects[semanticviews][version] = 1.x-dev
 projects[semanticviews][subdir] = contrib
+projects[semanticviews][type] = module
 
 projects[views_infinite_scroll][version] = 1.1
 projects[views_infinite_scroll][subdir] = contrib
+projects[views_infinite_scroll][type] = module
 
 projects[views_slideshow][version] = 3.x-dev
 projects[views_slideshow][subdir] = contrib
+projects[views_slideshow][type] = module
 
 projects[webform][version] = 3.19
 projects[webform][subdir] = contrib
+projects[webform][type] = module
 
 projects[xmlsitemap][version] = 2.0-rc2
 projects[xmlsitemap][subdir] = contrib
+projects[xmlsitemap][type] = module
 
 
 ;;;;;;;;;
@@ -451,27 +484,35 @@ projects[xmlsitemap][subdir] = contrib
 
 projects[admin_menu][subdir] = contrib
 projects[admin_menu][version] = 3.0-rc4
+projects[admin_menu][type] = module
 
 projects[admin_views][subdir] = contrib
 projects[admin_views][version] = 1.2
+projects[admin_views][type] = module
 
 projects[devel][subdir] = contrib
 projects[devel][version] = 1.1
+projects[devel][type] = module
 
 projects[features][subdir] = contrib
 projects[features][version] = 2.x-dev
+projects[features][type] = module
 
 projects[features_extra][subdir] = contrib
 projects[features_extra][version] = 1.0-beta1
+projects[features_extra][type] = module
 
 projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0
+projects[strongarm][type] = module
 
 projects[styleguide][subdir] = contrib
 projects[styleguide][version] = 1.0
+projects[styleguide][type] = module
 
 projects[stage_file_proxy][subdir] = contrib
 projects[stage_file_proxy][version] = 1.3
+projects[stage_file_proxy][type] = module
 
 
 
@@ -482,6 +523,7 @@ projects[stage_file_proxy][version] = 1.3
 ; omega
 projects[omega][version] = 3.1
 projects[omega][subdir] = contrib
+projects[omega][type] = theme
 
 ;;;;;;;;;
 ; Libraries
@@ -551,7 +593,4 @@ libraries[galleria][download][url] = "http://galleria.io/static/galleria-1.2.9.z
 ;libraries[autopager][destination] = "libraries"
 ;libraries[autopager][download][type] = "get"
 ;libraries[autopager][download][url] = "" ; TODO add download URI
-
-
-
 
