@@ -7,12 +7,15 @@ core = 7.x
 
 projects[auto_nodetitle][version] = 1.0
 projects[auto_nodetitle][subdir] = contrib
+projects[auto_nodetitle][type] = module
 
 projects[diff][subdir] = contrib
 projects[diff][version] = 3.2
+projects[diff][type] = module
 
 projects[email][subdir] = contrib
 projects[email][version] = 1.2
+projects[email][type] = module
 
 projects[entityreference][subdir] = contrib
 projects[entityreference][version] = 1.x-dev
@@ -30,14 +33,11 @@ projects[field_collection_views][version] = 1.0-beta3
 projects[link][subdir] = contrib
 projects[link][version] = 1.1
 
-projects[feedback][subdir] = contrib
-projects[feedback][version] = 2.x-dev
+projects[feedmine][subdir] = contrib
+projects[feedmine][version] = 2.0
 
 projects[node_clone][subdir] = contrib
 projects[node_clone][version] = 1.0-rc1
-
-projects[live_css][subdir] = contrib
-projects[live_css][version] = 2.11
 
 
 ;;;;;;;;;
