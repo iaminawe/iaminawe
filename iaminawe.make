@@ -139,6 +139,10 @@ projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.1
 projects[libraries][type] = module
 
+projects[less][subdir] = contrib
+projects[less][version] = 3.0
+projects[less][type] = module
+
 projects[logintoboggan][subdir] = contrib
 projects[logintoboggan][version] = 1.3
 projects[logintoboggan][type] = module
@@ -253,9 +257,17 @@ projects[coffee][version] = "1.0"
 projects[coffee][subdir] = "contrib"
 projects[coffee][type] = module
 
+projects[contact_form_blocks][version] = "1.x-dev"
+projects[contact_form_blocks][subdir] = "contrib"
+projects[contact_form_blocks][type] = module
+
 projects[cck][version] = "2.x-dev"
 projects[cck][subdir] = "contrib"
 projects[cck][type] = module
+
+projects[ckeditor][version] = "1.13"
+projects[ckeditor][subdir] = "contrib"
+projects[ckeditor][type] = module
 
 projects[domain][version] = "3.10"
 projects[domain][subdir] = "contrib"
@@ -276,6 +288,10 @@ projects[domain_menu_access][type] = module
 projects[domain_path][version] = 1.0-beta4
 projects[domain_path][subdir] = contrib
 projects[domain_path][type] = module
+
+projects[domains_metatag][version] = 1.1
+projects[domains_metatag][subdir] = contrib
+projects[domains_metatag][type] = module
 
 projects[domain_views][version] = 1.5
 projects[domain_views][subdir] = contrib
@@ -515,7 +531,6 @@ projects[stage_file_proxy][version] = 1.3
 projects[stage_file_proxy][type] = module
 
 
-
 ;;;;;;;;;
 ; Themes
 ;;;;;;;;;
@@ -533,6 +548,11 @@ libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
+
+libraries[colorbox][download][type] = "get"
+libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/master.zip"
+libraries[colorbox[directory_name] = colorbox"
+libraries[colorbox][destination] = "libraries"
 
 libraries[flexslider][directory_name] = "flexslider"
 libraries[flexslider][type] = "library"
@@ -567,11 +587,11 @@ libraries[plupload][download][type] = "file"
 libraries[plupload][download][url] = "http://plupload.com/downloads/plupload_1_5_6.zip"
 
 ; jQuery Superfish
-libraries[superfish][directory_name] = "superfish"
-libraries[superfish][type] = "library"
-libraries[superfish][destination] = "libraries"
-libraries[superfish][download][type] = "get"
-libraries[superfish][download][url] = "https://github.com/mehrpadin/Superfish-for-Drupal/archive/master.zip"
+;libraries[superfish][directory_name] = "superfish"
+;libraries[superfish][type] = "library"
+;libraries[superfish][destination] = "libraries"
+;libraries[superfish][download][type] = "get"
+;libraries[superfish][download][url] = "https://github.com/mehrpadin/Superfish-for-Drupal/archive/master.zip"
 
 ; FitVids
 libraries[fitvids][directory_name] = "fitvids"
@@ -586,6 +606,13 @@ libraries[galleria][type] = "library"
 libraries[galleria][destination] = "libraries"
 libraries[galleria][download][type] = "get"
 libraries[galleria][download][url] = "http://galleria.io/static/galleria-1.2.9.zip"
+
+; less
+libraries[less][directory_name] = "galleria"
+libraries[less][type] = "library"
+libraries[less][destination] = "libraries"
+libraries[less][download][type] = "get"
+libraries[less][download][url] = "http://leafo.net/lessphp/src/lessphp-0.4.0.tar.gz"
 
 ; autopager
 ;libraries[autopager][directory_name] = "autopager"
