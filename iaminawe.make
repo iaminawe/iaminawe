@@ -84,7 +84,7 @@ projects[ctools][version] = 1.3
 projects[ctools][type] = module
 
 projects[ds][subdir] = contrib
-projects[ds][version] = 1.9
+projects[ds][version] = 2.6
 projects[ds][type] = module
 
 projects[ds_bootstrap_layouts][subdir] = contrib
