@@ -429,6 +429,7 @@ projects[stage_file_proxy][version] = 1.3
 ; omega
 projects[omega][version] = 3.1
 projects[omega][subdir] = contrib
+projects[omega][type] = theme
 
 ;;;;;;;;;
 ; Libraries
