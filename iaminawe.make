@@ -87,6 +87,10 @@ projects[ds][subdir] = contrib
 projects[ds][version] = 1.9
 projects[ds][type] = module
 
+projects[ds_bootstrap_layouts][subdir] = contrib
+projects[ds_bootstrap_layouts][version] = 1.1
+projects[ds_bootstrap_layouts][type] = module
+
 projects[uuid_features][subdir] = contrib
 projects[uuid_features][version] = 1.0-alpha3
 projects[uuid_features][type] = module
@@ -154,6 +158,10 @@ projects[menu_block][type] = module
 projects[node_view_permissions][subdir] = contrib
 projects[node_view_permissions][version] = 1.0
 projects[node_view_permissions][type] = module
+
+projects[profile2][subdir] = contrib
+projects[profile2][version] = 1.3
+projects[profile2][type] = module
 
 projects[references_dialog][subdir] = contrib
 projects[references_dialog][version] = 1.x-dev
