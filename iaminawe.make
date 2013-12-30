@@ -393,6 +393,10 @@ projects[fitvids][version] = 1.14
 projects[fitvids][subdir] = contrib
 projects[fitvids][type] = module
 
+projects[fit_text][version] = 1.0
+projects[fit_text][subdir] = contrib
+projects[fit_text][type] = module
+
 projects[galleria][version] = 1.0-beta3
 projects[galleria][subdir] = contrib
 projects[galleria][type] = module
@@ -559,6 +563,12 @@ libraries[flexslider][type] = "library"
 libraries[flexslider][destination] = "libraries"
 libraries[flexslider][download][type] = "get"
 libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider/archive/master.zip"
+
+libraries[fit_text][directory_name] = "fit_text"
+libraries[fit_text][type] = "library"
+libraries[fit_text][destination] = "libraries"
+libraries[fit_text][download][type] = "get"
+libraries[fit_text][download][url] = "https://github.com/davatron5000/FitText.js/archive/master.zip"
 
 libraries[modernizr][directory_name] = "modernizr"
 libraries[modernizr][type] = "library"
