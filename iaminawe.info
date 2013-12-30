@@ -84,9 +84,7 @@ dependencies[] = plupload
 ; Meta tags
 dependencies[] = metatag
 dependencies[] = metatag_opengraph
-; Monitoring
-dependencies[] = prod_check
-dependencies[] = prod_monitor
+
 ; Other
 dependencies[] = adaptive_image
 dependencies[] = backup_migrate
