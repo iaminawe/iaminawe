@@ -84,8 +84,12 @@ projects[ctools][version] = 1.3
 projects[ctools][type] = module
 
 projects[ds][subdir] = contrib
-projects[ds][version] = 1.9
+projects[ds][version] = 2.6
 projects[ds][type] = module
+
+projects[ds_bootstrap_layouts][subdir] = contrib
+projects[ds_bootstrap_layouts][version] = 1.1
+projects[ds_bootstrap_layouts][type] = module
 
 projects[uuid_features][subdir] = contrib
 projects[uuid_features][version] = 1.0-alpha3
@@ -154,6 +158,10 @@ projects[menu_block][type] = module
 projects[node_view_permissions][subdir] = contrib
 projects[node_view_permissions][version] = 1.0
 projects[node_view_permissions][type] = module
+
+projects[profile2][subdir] = contrib
+projects[profile2][version] = 1.3
+projects[profile2][type] = module
 
 projects[references_dialog][subdir] = contrib
 projects[references_dialog][version] = 1.x-dev
@@ -558,6 +566,11 @@ libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/arch
 libraries[colorbox[directory_name] = colorbox"
 libraries[colorbox][destination] = "libraries"
 
+libraries[colorpicker][download][type] = "get"
+libraries[colorpicker][download][url] = "http://www.eyecon.ro/colorpicker/colorpicker.zip"
+libraries[colorpicker[directory_name] = colorbox"
+libraries[colorpicker][destination] = "colorpicker"
+
 libraries[flexslider][directory_name] = "flexslider"
 libraries[flexslider][type] = "library"
 libraries[flexslider][destination] = "libraries"
@@ -611,11 +624,11 @@ libraries[fitvids][download][type] = "get"
 libraries[fitvids][download][url] = "https://raw.github.com/davatron5000/FitVids.js/master/jquery.fitvids.js"
 
 ; galleria
-libraries[galleria][directory_name] = "galleria"
-libraries[galleria][type] = "library"
-libraries[galleria][destination] = "libraries"
-libraries[galleria][download][type] = "get"
-libraries[galleria][download][url] = "http://galleria.io/static/galleria-1.2.9.zip"
+;libraries[galleria][directory_name] = "galleria"
+;libraries[galleria][type] = "library"
+;libraries[galleria][destination] = "libraries"
+;libraries[galleria][download][type] = "get"
+;libraries[galleria][download][url] = "http://galleria.io/static/galleria-1.2.9.zip"
 
 ; less
 libraries[less][directory_name] = "galleria"
