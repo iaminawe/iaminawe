@@ -566,6 +566,11 @@ libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/arch
 libraries[colorbox[directory_name] = colorbox"
 libraries[colorbox][destination] = "libraries"
 
+libraries[colorpicker][download][type] = "get"
+libraries[colorpicker][download][url] = "http://www.eyecon.ro/colorpicker/colorpicker.zip"
+libraries[colorpicker[directory_name] = colorbox"
+libraries[colorpicker][destination] = "colorpicker"
+
 libraries[flexslider][directory_name] = "flexslider"
 libraries[flexslider][type] = "library"
 libraries[flexslider][destination] = "libraries"
