@@ -619,14 +619,14 @@ libraries[fitvids][download][type] = "get"
 libraries[fitvids][download][url] = "https://raw.github.com/davatron5000/FitVids.js/master/jquery.fitvids.js"
 
 ; galleria
-;libraries[galleria][directory_name] = "galleria"
-;libraries[galleria][type] = "library"
-;libraries[galleria][destination] = "libraries"
-;libraries[galleria][download][type] = "get"
-;libraries[galleria][download][url] = "http://galleria.io/static/galleria-1.2.9.zip"
+libraries[galleria][directory_name] = "galleria"
+libraries[galleria][type] = "library"
+libraries[galleria][destination] = "libraries"
+libraries[galleria][download][type] = "get"
+libraries[galleria][download][url] = "http://galleria.io/static/galleria-1.2.9.zip"
 
 ; less
-libraries[less][directory_name] = "galleria"
+libraries[less][directory_name] = "less"
 libraries[less][type] = "library"
 libraries[less][destination] = "libraries"
 libraries[less][download][type] = "get"
