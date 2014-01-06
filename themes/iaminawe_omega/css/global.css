@@ -19,7 +19,7 @@ body {
   color: #111;
   font-size: 1.1em;
   line-height: 1.3em;
-  
+
 }
 
 
@@ -835,6 +835,6 @@ padding: 5px;
   font-style: italic;
 }
 
-.flippy .empty,{
+.flippy .empty{
   display:none !important;
 }
