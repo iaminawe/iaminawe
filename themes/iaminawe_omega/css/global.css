@@ -19,6 +19,7 @@ body {
   color: #111;
   font-size: 1.1em;
   line-height: 1.3em;
+  background-image: url("http://greggcoppen.com/profiles/iaminawe/themes/greggresume/images/lightgrungegrid.jpg");
 }
 
 
@@ -489,7 +490,7 @@ ul.links.inline{
 .group-header span.post-date {
   float: left;
   margin-left: 0;
-  padding-left: 0;
+  padding-left: 10px;
 }
 .group-header span.client{
  float: left;
