@@ -41,8 +41,6 @@
   background-color: transparent;
   height: 40px;
 
-
-
 }
 
 #block-system-main-menu a{
@@ -54,12 +52,6 @@
   text-shadow: 1px -1px 2px #fefefe;
 }
 
-
-.block-main-menu ul {
-  right: 10px;
-position: absolute;
-top: -140px;
-}
 
 .block-main-menu ul li{
   list-style-image: none;

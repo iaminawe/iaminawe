@@ -1,9 +1,9 @@
 /* @override 
-	http://dev.iaminawe.com/sites/dev.iaminawe.com/themes/iaminawe_omega/css/global.css?m3o5ts
-	http://dev.iaminawe.com/sites/dev.iaminawe.com/themes/iaminawe_omega/css/global.css?m5fdop
-	http://dev.iaminawe.com/sites/dev.iaminawe.com/themes/iaminawe_omega/css/global.css?m5fjaz
-	http://dev.iaminawe.com/sites/dev.iaminawe.com/themes/iaminawe_omega/css/global.css?m5fkfb
-	http://dev.iaminawe.com/sites/dev.iaminawe.com/themes/iaminawe_omega/css/global.css?m5fllo
+  http://dev.iaminawe.com/sites/dev.iaminawe.com/themes/iaminawe_omega/css/global.css?m3o5ts
+  http://dev.iaminawe.com/sites/dev.iaminawe.com/themes/iaminawe_omega/css/global.css?m5fdop
+  http://dev.iaminawe.com/sites/dev.iaminawe.com/themes/iaminawe_omega/css/global.css?m5fjaz
+  http://dev.iaminawe.com/sites/dev.iaminawe.com/themes/iaminawe_omega/css/global.css?m5fkfb
+  http://dev.iaminawe.com/sites/dev.iaminawe.com/themes/iaminawe_omega/css/global.css?m5fllo
 
 */
 
@@ -178,7 +178,10 @@ dd {
   font-size:20px;
   background-color: transparent;
   height: 40px;
-  float:right;
+  position: abolute;
+
+
+
 
 }
 
@@ -191,12 +194,16 @@ font-size: 24px;
   text-shadow: 1px -1px 2px #fefefe;
 }
 
-
+.block-main-menu ul.menu{
+  right: 10px;
+  position: absolute;
+ 
+}
 
 .block-main-menu ul li{
   list-style-image: none;
   list-style-type: none;
-  display:inline;
+display:inline;
   margin-left: 5px;
 
 }
@@ -457,8 +464,8 @@ margin-bottom: 10px;
  
 }
 ul.links.inline{
-	width: 100%;
-	float: left;
+  width: 100%;
+  float: left;
 }
 
 .group-header .label-inline{
@@ -497,7 +504,7 @@ ul.links.inline{
 }
 
 .group-header a{
-	
+  
   margin-right: 5px;
 }
 
@@ -781,34 +788,34 @@ padding: 5px;
 }
 
 #comments .field-item{
-	padding-top: 10px;
-	padding-bottom: 10px;
-	
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
 }
 
 #comments h2.title{
-	font-size: 30px !important;
+  font-size: 30px !important;
 }
 
 #comments h3{
-	margin-bottom: 5px;
-	font-size: 20px;
+  margin-bottom: 5px;
+  font-size: 20px;
 }
 
 .comment{
-	padding: 10px;
-	background-color: #ececec;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
-	-moz-box-shadow: inset 0 2px 5px #8b8b8b;
-	-webkit-box-shadow: inset 0 2px 5px #8b8b8b;
-	box-shadow: inset 0 2px 5px #8b8b8b;
-	margin-bottom: 10px;
+  padding: 10px;
+  background-color: #ececec;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: inset 0 2px 5px #8b8b8b;
+  -webkit-box-shadow: inset 0 2px 5px #8b8b8b;
+  box-shadow: inset 0 2px 5px #8b8b8b;
+  margin-bottom: 10px;
 }
 
 .comment-submitted{
-	font-size: 14px;
-	color:#444;
-	font-style: italic;
+  font-size: 14px;
+  color:#444;
+  font-style: italic;
 }
