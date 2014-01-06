@@ -454,6 +454,7 @@ top: -180px;
 .node .flexslider ul,
 .node .flexslider ol{
   padding-left: 0 !important;
+  top: -30px;
 }
 
 .node ul.inline,
@@ -831,4 +832,8 @@ padding: 5px;
   font-size: 14px;
   color:#444;
   font-style: italic;
+}
+
+.flippy .empty,{
+  display:none !important;
 }
