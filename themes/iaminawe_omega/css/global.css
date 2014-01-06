@@ -182,7 +182,7 @@ dd {
 
 	position: absolute;
 	top: 80px;
-	left: 55px;
+	right: 55px;
 
 
 }
@@ -197,9 +197,6 @@ font-size: 24px;
 }
 
 
-.block-main-menu ul {
-  margin-top: -90px;
-}
 
 .block-main-menu ul li{
   list-style-image: none;

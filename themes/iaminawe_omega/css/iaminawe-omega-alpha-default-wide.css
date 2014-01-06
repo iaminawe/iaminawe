@@ -43,7 +43,7 @@
 
 	position: absolute;
 	top: 80px;
-	left: 90px;
+	right: 90px;
 
 
 }
@@ -67,7 +67,7 @@
   list-style-type: none;
   float: left;
   margin-left: 5px;
-    
+
 }
 
 /*Horizontal Rule*/
