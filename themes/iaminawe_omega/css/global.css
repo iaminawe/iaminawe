@@ -525,7 +525,7 @@ z-index: 99;
 .flippy .prev {
  position: absolute;
  left: 5px;
-  padding: 10px;
+  padding: 5px;
   font-style: italic;
    
 }
@@ -536,6 +536,33 @@ z-index: 99;
  padding: 10px;
    font-style: italic;
 
+}
+
+.block-4{
+  padding-top: 30px !important;
+}
+
+#mc-embedded-subscribe-form{
+  text-align: center !important;
+  width:300px;
+  display:inline-block !important;
+  float:none !important;
+  text-align: center !important;
+}
+
+#mc-embedded-subscribe-form .input{
+  padding:3px !important;
+}
+
+#mc-embedded-subscribe-form .button{
+  color:black !important;
+  margin-left: 30px !important;
+
+}
+
+
+.logo-img{
+  left:50%;
 }
 
 /* Group Left DS*/
