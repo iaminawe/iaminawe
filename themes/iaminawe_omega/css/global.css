@@ -73,28 +73,40 @@ h1 {
 
 h2 {
   font-size: 28px;
-    
 }
 
-h1.site-name,
+h1.site-name
+{
+
+  color: white !important;
+  padding: 3px;
+  position: absolute;
+  left: 0px;
+  top: 50px;
+  font-size: 50px !important;
+  text-shadow: #222 2px 2px 2px;
+  height: 30px;
+
+}
+
 h2.site-name a {
 
   color: white !important;
   padding: 3px;
   position: absolute;
   left: 0px;
-  top: 30px;
+  top: 40px;
   font-size: 50px !important;
   text-shadow: #222 2px 2px 2px;
   height: 30px;
- 
+
 }
+
 
 
 h1.site-name a.active{
   text-shadow: #222 2px 2px 2px !important;
   color: white !important;
-  top: -50px;
   position: absolute;
 
 }
@@ -178,6 +190,7 @@ dd {
   font-size:20px;
   background-color: transparent;
   height: 40px;
+  margin-top: 10px;
 
 
 
