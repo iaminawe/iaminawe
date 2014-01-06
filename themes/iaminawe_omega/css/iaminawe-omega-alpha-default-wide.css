@@ -41,9 +41,6 @@
   background-color: transparent;
   height: 40px;
 
-	position: absolute;
-	top: 80px;
-	right: 90px;
 
 
 }
@@ -59,7 +56,9 @@
 
 
 .block-main-menu ul {
-  margin-top: -100px;
+  right: 10px;
+position: absolute;
+top: -140px;
 }
 
 .block-main-menu ul li{

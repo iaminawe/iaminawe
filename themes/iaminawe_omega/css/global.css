@@ -176,14 +176,9 @@ dd {
 #block-system-main-menu{
   width:90%;
   font-size:20px;
-  margin-top:80px!important;
   background-color: transparent;
   height: 40px;
-
-	position: absolute;
-	top: 80px;
-	right: 55px;
-
+  float:right;
 
 }
 
@@ -201,9 +196,9 @@ font-size: 24px;
 .block-main-menu ul li{
   list-style-image: none;
   list-style-type: none;
-  float: left;
+  display:inline;
   margin-left: 5px;
-    
+
 }
 
 /*Horizontal Rule*/
