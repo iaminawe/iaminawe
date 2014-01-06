@@ -257,6 +257,14 @@ hr {
   height:auto;
 }
 
+.flex-direction-nav{
+  top:20% !important;
+}
+
+.flex-direction-nav a:before{
+  margin-top:10px !important;
+}
+
 /*Home Page*/
 
 .front h1#page-title{
