@@ -250,6 +250,7 @@ hr {
   -moz-box-shadow: none;
   box-shadow: none;
   max-width: 100%;
+  height:auto;
 }
 
 /*Home Page*/
@@ -521,7 +522,7 @@ height: 35px;
 z-index: 99;
 }
 
-.flippy .previous {
+.flippy .prev {
  position: absolute;
  left: 5px;
   padding: 10px;
