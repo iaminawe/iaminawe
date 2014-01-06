@@ -178,29 +178,30 @@ dd {
   font-size:20px;
   background-color: transparent;
   height: 40px;
-  position: abolute;
-  right: -20px;
-  top: 30px;
 
 
-}
 
-.front #block-system-main-menu{
-   top: 10px;
 }
 
 
 #block-system-main-menu a{
-
   border: none;
   color: #444;
-font-size: 24px;
+  font-size: 24px;
   white-space: nowrap;
   text-shadow: 1px -1px 2px #fefefe;
 }
 
 .block-main-menu ul.menu{
+  position: absolute;
+  right: -20px;
+  top: 30px;
+}
 
+.front .block-main-menu ul.menu{
+  position: absolute;
+  right: -20px;
+  top: 20px;
 }
 
 .block-main-menu ul li{
