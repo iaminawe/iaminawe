@@ -34,15 +34,6 @@
 
 /* Menu Styles. */
 
-#block-system-main-menu{
-  width:90%;
-  font-size:20px;
-  margin-top:80px!important;
-  background-color: transparent;
-  height: 40px;
-
-}
-
 #block-system-main-menu a{
 
   border: none;
@@ -110,10 +101,6 @@ margin-top: -20px;
   display: none;
 }
 
-.front .node-page .content{
-  background-image: none !important;
-  padding: 10px;
-}
 
 .front .flexslider h3{
   margin-top: 10px;

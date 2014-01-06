@@ -195,14 +195,9 @@ dd {
 .block-main-menu ul.menu{
   position: absolute;
   right: -20px;
-  top: 30px;
-}
-
-.front .block-main-menu ul.menu{
-  position: absolute;
-  right: -20px;
   top: 20px;
 }
+
 
 .block-main-menu ul li{
   list-style-image: none;
