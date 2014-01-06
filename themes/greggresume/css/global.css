@@ -235,12 +235,15 @@ a{
   font-size: 14px;
 }
 
+html{
+   background-image: url(http://greggcoppen.com/profiles/iaminawe/themes/greggresume/images/lightgrungegrid.jpg) !important;
+}
+
 
 
 body {
   font: 16px/1.5 Palatino, Baskerville, Georgia, "Times New Roman", Times, serif;
   color: #333;
-  background-image: url("http://greggcoppen.com/profiles/iaminawe/themes/greggresume/images/lightgrungegrid.jpg") !important;
 }
 
 a:link, a:visited {
@@ -261,7 +264,7 @@ a:active {
 
 a.active-trail,
 a.active.active{
-  
+
   color: #00bafa;
   text-decoration: none;
 }
@@ -1320,15 +1323,6 @@ ul.links .comment_forbidden{
   -moz-box-shadow: -2px 0px 6px #ccc;
 position: relative;
 z-index:999;
-}
-
-
-#sb-body{
-
-}
-
-#sb-body-inner{
-
 }
 
 .flippy li.first{
