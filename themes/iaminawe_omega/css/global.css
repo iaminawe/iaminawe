@@ -1,9 +1,9 @@
 /* @override 
-	http://dev.iaminawe.com/sites/dev.iaminawe.com/themes/iaminawe_omega/css/global.css?m3o5ts
-	http://dev.iaminawe.com/sites/dev.iaminawe.com/themes/iaminawe_omega/css/global.css?m5fdop
-	http://dev.iaminawe.com/sites/dev.iaminawe.com/themes/iaminawe_omega/css/global.css?m5fjaz
-	http://dev.iaminawe.com/sites/dev.iaminawe.com/themes/iaminawe_omega/css/global.css?m5fkfb
-	http://dev.iaminawe.com/sites/dev.iaminawe.com/themes/iaminawe_omega/css/global.css?m5fllo
+  http://dev.iaminawe.com/sites/dev.iaminawe.com/themes/iaminawe_omega/css/global.css?m3o5ts
+  http://dev.iaminawe.com/sites/dev.iaminawe.com/themes/iaminawe_omega/css/global.css?m5fdop
+  http://dev.iaminawe.com/sites/dev.iaminawe.com/themes/iaminawe_omega/css/global.css?m5fjaz
+  http://dev.iaminawe.com/sites/dev.iaminawe.com/themes/iaminawe_omega/css/global.css?m5fkfb
+  http://dev.iaminawe.com/sites/dev.iaminawe.com/themes/iaminawe_omega/css/global.css?m5fllo
 
 */
 
@@ -19,6 +19,7 @@ body {
   color: #111;
   font-size: 1.1em;
   line-height: 1.3em;
+
 }
 
 
@@ -73,29 +74,32 @@ h1 {
 
 h2 {
   font-size: 28px;
-    
 }
 
-h1.site-name,
+h1.site-name a
+{
+
+  color: white !important;
+  padding: 3px;
+  position: absolute;
+  left: 0px;
+  top: 50px;
+  font-size: 50px !important;
+  text-shadow: #222 2px 2px 2px;
+  height: 30px;
+
+}
+
 h2.site-name a {
 
   color: white !important;
   padding: 3px;
   position: absolute;
-  left: 90px;
+  left: 0px;
   top: 40px;
   font-size: 50px !important;
   text-shadow: #222 2px 2px 2px;
   height: 30px;
- 
-}
-
-
-h1.site-name a.active{
-  text-shadow: #222 2px 2px 2px !important;
-  color: white !important;
-  top: -50px;
-  position: absolute;
 
 }
 
@@ -174,40 +178,41 @@ dd {
 /* Menu Styles. */
 
 #block-system-main-menu{
-  width:90%;
+  width:100%;
   font-size:20px;
-  margin-top:80px!important;
   background-color: transparent;
   height: 40px;
+  margin-top: 10px;
 
-	position: absolute;
-	top: 80px;
-	left: 55px;
 
 
 }
 
-#block-system-main-menu a{
 
+#block-system-main-menu a{
   border: none;
   color: #444;
-font-size: 24px;
+  font-size: 24px;
   white-space: nowrap;
   text-shadow: 1px -1px 2px #fefefe;
 }
 
-
-.block-main-menu ul {
-  margin-top: -90px;
+.block-main-menu ul.menu{
+  position: absolute;
+  right: -20px;
+  top: 20px;
 }
+
 
 .block-main-menu ul li{
   list-style-image: none;
   list-style-type: none;
-  float: left;
+display:inline;
   margin-left: 5px;
-    
+
 }
+
+
 
 /*Horizontal Rule*/
 
@@ -236,12 +241,12 @@ hr {
 }
 
 /*Flexslider general*/
+
 .flexslider{
    border: 4px solid white;
   -webkit-box-shadow: 0px 3px 4px #888;
   -moz-box-shadow: 0px 3px 4px #888;
   box-shadow: 0px 3px 4px #888;
-  width: 98%;
 }
 
 .flexslider img{
@@ -250,6 +255,15 @@ hr {
   -moz-box-shadow: none;
   box-shadow: none;
   max-width: 100%;
+  height:auto;
+}
+
+.flex-direction-nav{
+  top:20% !important;
+}
+
+.flex-direction-nav a:before{
+  margin-top:10px !important;
 }
 
 /*Home Page*/
@@ -438,6 +452,12 @@ top: -180px;
   padding-left: 1.2em;
 }
 
+.node .flexslider ul,
+.node .flexslider ol{
+  padding-left: 0 !important;
+  top: -30px;
+}
+
 .node ul.inline,
 .node ol.inline {
   padding-left: 0;
@@ -459,8 +479,8 @@ margin-bottom: 10px;
  
 }
 ul.links.inline{
-	width: 100%;
-	float: left;
+  width: 100%;
+  float: left;
 }
 
 .group-header .label-inline{
@@ -470,7 +490,7 @@ ul.links.inline{
 .group-header span.post-date {
   float: left;
   margin-left: 0;
-  padding-left: 0;
+  padding-left: 10px;
 }
 .group-header span.client{
  float: left;
@@ -499,7 +519,7 @@ ul.links.inline{
 }
 
 .group-header a{
-	
+  
   margin-right: 5px;
 }
 
@@ -521,10 +541,10 @@ height: 35px;
 z-index: 99;
 }
 
-.flippy .previous {
+.flippy .prev {
  position: absolute;
  left: 5px;
-  padding: 10px;
+  padding: 5px;
   font-style: italic;
    
 }
@@ -535,6 +555,33 @@ z-index: 99;
  padding: 10px;
    font-style: italic;
 
+}
+
+.block-4{
+  padding-top: 30px !important;
+}
+
+#mc-embedded-subscribe-form{
+  text-align: center !important;
+  width:300px;
+  display:inline-block !important;
+  float:none !important;
+  text-align: center !important;
+}
+
+#mc-embedded-subscribe-form .input{
+  padding:3px !important;
+}
+
+#mc-embedded-subscribe-form .button{
+  color:black !important;
+  margin-left: 30px !important;
+
+}
+
+
+.logo-img{
+  left:50%;
 }
 
 /* Group Left DS*/
@@ -756,34 +803,38 @@ padding: 5px;
 }
 
 #comments .field-item{
-	padding-top: 10px;
-	padding-bottom: 10px;
-	
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
 }
 
 #comments h2.title{
-	font-size: 30px !important;
+  font-size: 30px !important;
 }
 
 #comments h3{
-	margin-bottom: 5px;
-	font-size: 20px;
+  margin-bottom: 5px;
+  font-size: 20px;
 }
 
 .comment{
-	padding: 10px;
-	background-color: #ececec;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
-	-moz-box-shadow: inset 0 2px 5px #8b8b8b;
-	-webkit-box-shadow: inset 0 2px 5px #8b8b8b;
-	box-shadow: inset 0 2px 5px #8b8b8b;
-	margin-bottom: 10px;
+  padding: 10px;
+  background-color: #ececec;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: inset 0 2px 5px #8b8b8b;
+  -webkit-box-shadow: inset 0 2px 5px #8b8b8b;
+  box-shadow: inset 0 2px 5px #8b8b8b;
+  margin-bottom: 10px;
 }
 
 .comment-submitted{
-	font-size: 14px;
-	color:#444;
-	font-style: italic;
+  font-size: 14px;
+  color:#444;
+  font-style: italic;
+}
+
+.flippy .empty{
+  display:none !important;
 }

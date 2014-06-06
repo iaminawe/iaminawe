@@ -34,20 +34,6 @@
 
 /* Menu Styles. */
 
-#block-system-main-menu{
-  width:90%;
-  font-size:20px;
-  margin-top:80px!important;
-  background-color: transparent;
-  height: 40px;
-
-	position: absolute;
-	top: 80px;
-	left: 90px;
-
-
-}
-
 #block-system-main-menu a{
 
   border: none;
@@ -58,16 +44,12 @@
 }
 
 
-.block-main-menu ul {
-  margin-top: -100px;
-}
-
 .block-main-menu ul li{
   list-style-image: none;
   list-style-type: none;
   float: left;
   margin-left: 5px;
-    
+
 }
 
 /*Horizontal Rule*/
@@ -119,10 +101,6 @@ margin-top: -20px;
   display: none;
 }
 
-.front .node-page .content{
-  background-image: none !important;
-  padding: 10px;
-}
 
 .front .flexslider h3{
   margin-top: 10px;

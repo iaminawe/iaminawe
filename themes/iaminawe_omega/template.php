@@ -13,18 +13,6 @@
  
 /**/
 
-/**
-* Theme function for 'default' userreference field formatter.
-
-function iaminawe_omega_theme_userreference_formatter_default($element) {
-  $output = '';
-
-  if (isset($element['#item']['uid']) && $account = user_load(array('uid' => $element['#item']['uid']))) {
-$output = theme('imagecache', 'tiny_thumb', $account->picture, $alt, $title, $attributes);
-  }
-  return $output;
-}
-*/
 
 function iaminawe_omega_theme_user_reference_field_formatter_view($entity_type, $entity, $field, $instance, $langcode, $items, $display) {
   $result = array();
