@@ -547,7 +547,7 @@ projects[commerce][version] = 1.3
 projects[commerce][type] = module
 
 projects[commerce_stripe][subdir] = contrib
-projects[commerce_stripe][version] = 1.3
+projects[commerce_stripe][version] = 1.0-rc6
 projects[commerce_stripe][type] = module
 
 ;;;;;;;;;
@@ -561,7 +561,7 @@ projects[omega][type] = theme
 
 projects[bootstrap][version] = 3.0
 projects[bootstrap][subdir] = contrib
-projects[bootstrap][type] = theme
+
 
 
 ;;;;;;;;;
