@@ -64,7 +64,7 @@ projects[transliteration][type] = module
 ;;;;;;;;;
 
 projects[backup_migrate][subdir] = contrib
-projects[backup_migrate][version] = 2.7
+projects[backup_migrate][version] = 3.0
 projects[backup_migrate][type] = module
 
 projects[better_formats][subdir] = contrib
@@ -72,7 +72,7 @@ projects[better_formats][version] = 1.0-beta1
 projects[better_formats][type] = module
 
 projects[context][subdir] = contrib
-projects[context][version] = 3.0-rc1
+projects[context][version] = 3.2
 projects[context][type] = module
 
 projects[cpn][subdir] = contrib
@@ -80,11 +80,11 @@ projects[cpn][version] = 1.x-dev
 projects[cpn][type] = module
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.3
+projects[ctools][version] = 1.4
 projects[ctools][type] = module
 
 projects[ds][subdir] = contrib
-projects[ds][version] = 2.6
+projects[ds][version] = 1.9
 projects[ds][type] = module
 
 projects[ds_bootstrap_layouts][subdir] = contrib
@@ -184,7 +184,7 @@ projects[token_tweaks][version] = 1.x-dev
 projects[token_tweaks][type] = module
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.7
+projects[views][version] = 3.8
 projects[views][type] = module
 
 projects[views_fluidgrid][subdir] = contrib
@@ -241,7 +241,7 @@ projects[wysiwyg_filter][type] = module
 ; UX Enhancements
 ;;;;;;;;;
 
-projects[addressfield][version] = "1.0-beta4"
+projects[addressfield][version] = "1.0-beta5"
 projects[addressfield][subdir] = "contrib"
 projects[addressfield][type] = module
 
@@ -269,7 +269,7 @@ projects[contact_form_blocks][version] = "1.x-dev"
 projects[contact_form_blocks][subdir] = "contrib"
 projects[contact_form_blocks][type] = module
 
-projects[cck][version] = "2.x-dev"
+projects[cck][version] = "3.0-alpha3"
 projects[cck][subdir] = "contrib"
 projects[cck][type] = module
 
@@ -277,7 +277,7 @@ projects[ckeditor][version] = "1.13"
 projects[ckeditor][subdir] = "contrib"
 projects[ckeditor][type] = module
 
-projects[domain][version] = "3.10"
+projects[domain][version] = "3.11"
 projects[domain][subdir] = "contrib"
 projects[domain][type] = module
 
@@ -381,11 +381,11 @@ projects[adaptive_image][version] = 1.4
 projects[adaptive_image][subdir] = contrib
 projects[adaptive_image][type] = module
 
-projects[bg_image][version] = 1.1
+projects[bg_image][version] = 1.3
 projects[bg_image][subdir] = contrib
 projects[bg_image][type] = module
 
-projects[browserclass][version] = 1.5
+projects[browserclass][version] = 1.7
 projects[browserclass][subdir] = "contrib"
 projects[browserclass][type] = module
 
@@ -497,7 +497,7 @@ projects[views_slideshow][version] = 3.x-dev
 projects[views_slideshow][subdir] = contrib
 projects[views_slideshow][type] = module
 
-projects[webform][version] = 3.19
+projects[webform][version] = 3.2
 projects[webform][subdir] = contrib
 projects[webform][type] = module
 
@@ -515,7 +515,7 @@ projects[admin_menu][version] = 3.0-rc4
 projects[admin_menu][type] = module
 
 projects[admin_views][subdir] = contrib
-projects[admin_views][version] = 1.2
+projects[admin_views][version] = 1.3
 projects[admin_views][type] = module
 
 projects[devel][subdir] = contrib
@@ -542,6 +542,13 @@ projects[stage_file_proxy][subdir] = contrib
 projects[stage_file_proxy][version] = 1.3
 projects[stage_file_proxy][type] = module
 
+projects[commerce][subdir] = contrib
+projects[commerce][version] = 1.3
+projects[commerce][type] = module
+
+projects[commerce_stripe][subdir] = contrib
+projects[commerce_stripe][version] = 1.3
+projects[commerce_stripe][type] = module
 
 ;;;;;;;;;
 ; Themes
@@ -551,6 +558,11 @@ projects[stage_file_proxy][type] = module
 projects[omega][version] = 3.1
 projects[omega][subdir] = contrib
 projects[omega][type] = theme
+
+projects[bootstrap][version] = 3.0
+projects[bootstrap][subdir] = contrib
+projects[bootstrap][type] = theme
+
 
 ;;;;;;;;;
 ; Libraries
@@ -625,17 +637,9 @@ libraries[galleria][destination] = "libraries"
 libraries[galleria][download][type] = "get"
 libraries[galleria][download][url] = "http://galleria.io/static/galleria-1.2.9.zip"
 
-; less
-libraries[less][directory_name] = "less"
-libraries[less][type] = "library"
-libraries[less][destination] = "libraries"
-libraries[less][download][type] = "get"
-libraries[less][download][url] = "http://leafo.net/lessphp/src/lessphp-0.4.0.tar.gz"
-
-; autopager
-;libraries[autopager][directory_name] = "autopager"
-;libraries[autopager][type] = "library"
-;libraries[autopager][destination] = "libraries"
-;libraries[autopager][download][type] = "get"
-;libraries[autopager][download][url] = "" ; TODO add download URI
-
+; stripe
+libraries[stripephp][directory_name] = "stripe-php"
+libraries[stripephp][type] = "library"
+libraries[stripephp][destination] = "libraries"
+libraries[stripephp][download][type] = "get"
+libraries[stripephp][download][url] = "https://github.com/stripe/stripe-php/archive/master.zip"
