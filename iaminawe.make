@@ -497,7 +497,7 @@ projects[views_slideshow][version] = 3.x-dev
 projects[views_slideshow][subdir] = contrib
 projects[views_slideshow][type] = module
 
-projects[webform][version] = 3.2
+projects[webform][version] = 3.20
 projects[webform][subdir] = contrib
 projects[webform][type] = module
 
