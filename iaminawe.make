@@ -9,6 +9,10 @@ projects[auto_nodetitle][version] = 1.0
 projects[auto_nodetitle][subdir] = contrib
 projects[auto_nodetitle][type] = module
 
+projects[boxes][version] = 1.1
+projects[boxes][subdir] = contrib
+projects[boxes][type] = module
+
 projects[diff][subdir] = contrib
 projects[diff][version] = 3.2
 projects[diff][type] = module
@@ -71,8 +75,12 @@ projects[better_formats][subdir] = contrib
 projects[better_formats][version] = 1.0-beta1
 projects[better_formats][type] = module
 
+projects[chosen][subdir] = contrib
+projects[chosen][version] = 2.0-beta4
+projects[chosen][type] = module
+
 projects[context][subdir] = contrib
-projects[context][version] = 3.2
+projects[context][version] = 3.6
 projects[context][type] = module
 
 projects[cpn][subdir] = contrib
@@ -88,19 +96,15 @@ projects[ds][version] = 1.9
 projects[ds][type] = module
 
 projects[ds_bootstrap_layouts][subdir] = contrib
-projects[ds_bootstrap_layouts][version] = 1.1
+projects[ds_bootstrap_layouts][version] = 3.x-dev
 projects[ds_bootstrap_layouts][type] = module
 
-projects[uuid_features][subdir] = contrib
-projects[uuid_features][version] = 1.0-alpha3
-projects[uuid_features][type] = module
-
-projects[uuid][subdir] = contrib
-projects[uuid][version] = 1.0-alpha5
-projects[uuid][type] = module
+projects[date][subdir] = contrib
+projects[date][version] = 2.7
+projects[date][type] = module
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.x-dev
+projects[entity][version] = 1.6
 projects[entity][type] = module
 
 projects[fontyourface][subdir] = contrib
@@ -132,7 +136,7 @@ projects[entitycache][version] = 1.x-dev
 projects[entitycache][type] = module
 
 projects[jquery_update][subdir] = contrib
-projects[jquery_update][version] = 2.x-dev
+projects[jquery_update][version] = 2.5
 projects[jquery_update][type] = module
 
 projects[jquery_colorpicker][subdir] = contrib
@@ -142,10 +146,6 @@ projects[jquery_colorpicker][type] = module
 projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.1
 projects[libraries][type] = module
-
-projects[less][subdir] = contrib
-projects[less][version] = 3.0
-projects[less][type] = module
 
 projects[logintoboggan][subdir] = contrib
 projects[logintoboggan][version] = 1.3
@@ -176,7 +176,7 @@ projects[special_menu_items][version] = 2.0
 projects[special_menu_items][type] = module
 
 projects[token][subdir] = contrib
-projects[token][version] = 1.4
+projects[token][version] = 1.5
 projects[token][type] = module
 
 projects[token_tweaks][subdir] = contrib
@@ -184,7 +184,7 @@ projects[token_tweaks][version] = 1.x-dev
 projects[token_tweaks][type] = module
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.8
+projects[views][version] = 3.10
 projects[views][type] = module
 
 projects[views_fluidgrid][subdir] = contrib
@@ -200,8 +200,16 @@ projects[views_bulk_operations][version] = 3.1
 projects[views_bulk_operations][type] = module
 
 projects[flippy][subdir] = contrib
-projects[flippy][version] = 1.2
+projects[flippy][version] = 1.3
 projects[flippy][type] = module
+
+projects[uuid_features][subdir] = contrib
+projects[uuid_features][version] = 1.0-alpha3
+projects[uuid_features][type] = module
+
+projects[uuid][subdir] = contrib
+projects[uuid][version] = 1.0-alpha5
+projects[uuid][type] = module
 
 
 ;;;;;;;;;
@@ -240,10 +248,6 @@ projects[wysiwyg_filter][type] = module
 ;;;;;;;;;
 ; UX Enhancements
 ;;;;;;;;;
-
-projects[addressfield][version] = "1.0-beta5"
-projects[addressfield][subdir] = "contrib"
-projects[addressfield][type] = module
 
 projects[advanced_help][subdir] = contrib
 projects[advanced_help][version] = 1.0
@@ -361,7 +365,7 @@ projects[typogrify][version] = 1.0-rc7
 projects[typogrify][subdir] = contrib
 projects[typogrify][type] = module
 
-projects[media][version] = 1.3
+projects[media][version] = 1.5
 projects[media][subdir] = contrib
 projects[media][type] = module
 
@@ -386,12 +390,16 @@ projects[bg_image][subdir] = contrib
 projects[bg_image][type] = module
 
 projects[browserclass][version] = 1.7
-projects[browserclass][subdir] = "contrib"
+projects[browserclass][subdir] = contrib
 projects[browserclass][type] = module
 
 projects[colorbox][version] = 2.4
-projects[colorbox][subdir] = "contrib"
+projects[colorbox][subdir] = contrib
 projects[colorbox][type] = module
+
+projects[colorbox_node][version] = 3.3
+projects[colorbox_node][subdir] = contrib
+projects[colorbox_node][type] = module
 
 projects[custom_pagers][version] = 1.x-dev
 projects[custom_pagers][subdir] = contrib
@@ -409,7 +417,11 @@ projects[galleria][version] = 1.0-beta3
 projects[galleria][subdir] = contrib
 projects[galleria][type] = module
 
-projects[menu_block][version] = "2.3"
+projects[headroomjs][version] = 1.x-dev
+projects[headroomjs][subdir] = contrib
+projects[headroomjs][type] = module
+
+projects[menu_block][version] = 2.4
 projects[menu_block][subdir] = contrib
 projects[menu_block][type] = module
 
@@ -417,15 +429,15 @@ projects[multiform][version] = 1.0
 projects[multiform][subdir] = contrib
 projects[multiform][type] = module
 
-projects[plup][version] = "1.0-alpha1"
-projects[plup][subdir] = "contrib"
+projects[plup][version] = 1.0-alpha1
+projects[plup][subdir] = contrib
 projects[plup][type] = module
 
 projects[scroll_to_top][version] = 2.1
 projects[scroll_to_top][subdir] = contrib
 projects[scroll_to_top][type] = module
 
-projects[securesite][version] = 2.x-dev
+projects[securesite][version] = 2.0-beta3
 projects[securesite][subdir] = contrib
 projects[securesite][type] = module
 
@@ -453,7 +465,7 @@ projects[oauth][version] = 3.1
 projects[oauth][subdir] = contrib
 projects[oauth][type] = module
 
-projects[sharethis][version] = 2.5
+projects[sharethis][version] = 2.9
 projects[sharethis][subdir] = contrib
 projects[sharethis][type] = module
 
@@ -485,6 +497,14 @@ projects[extlink][version] = 1.12
 projects[extlink][subdir] = contrib
 projects[extlink][type] = module
 
+projects[views_bootstrap][version] = 3.1
+projects[views_bootstrap][subdir] = contrib
+projects[views_bootstrap][type] = module
+
+projects[views_timelinejs][version] = 1.x-dev
+projects[views_timelinejs][subdir] = contrib
+projects[views_timelinejs][type] = module
+
 projects[semanticviews][version] = 1.x-dev
 projects[semanticviews][subdir] = contrib
 projects[semanticviews][type] = module
@@ -497,7 +517,7 @@ projects[views_slideshow][version] = 3.x-dev
 projects[views_slideshow][subdir] = contrib
 projects[views_slideshow][type] = module
 
-projects[webform][version] = 3.20
+projects[webform][version] = 3.24
 projects[webform][subdir] = contrib
 projects[webform][type] = module
 
@@ -523,7 +543,7 @@ projects[devel][version] = 1.1
 projects[devel][type] = module
 
 projects[features][subdir] = contrib
-projects[features][version] = 2.x-dev
+projects[features][version] = 2.2
 projects[features][type] = module
 
 projects[features_extra][subdir] = contrib
@@ -550,6 +570,42 @@ projects[commerce_stripe][subdir] = contrib
 projects[commerce_stripe][version] = 1.0-rc6
 projects[commerce_stripe][type] = module
 
+; Mapping
+
+projects[addressfield][version] = 1.0
+projects[addressfield][subdir] = contrib
+projects[addressfield][type] = module
+
+projects[geofield][version] = 2.1
+projects[geofield][subdir] = contrib
+projects[geofield][type] = module
+
+projects[geocoder][version] = 1.2
+projects[geocoder][subdir] = contrib
+projects[geocoder][type] = module
+
+projects[leaflet][subdir] = contrib
+projects[leaflet][version] = 1.x-dev
+
+projects[leaflet_markercluster][subdir] = contrib
+projects[leaflet_markercluster][version] = 1.x-dev
+
+projects[leaflet_more_maps][subdir] = contrib
+projects[leaflet_more_maps][version] = 1.11
+
+projects[leaflet_mapbox][subdir] = contrib
+projects[leaflet_mapbox][version] = 1.2
+
+projects[leaflet_popup_outside][subdir] = contrib
+projects[leaflet_popup_outside][version] = 1.0
+
+projects[geophp][subdir] = contrib
+projects[geophp][version] = 1.x-dev
+
+projects[ip_geoloc][subdir] = contrib
+projects[ip_geoloc][version] = 1.x-dev
+
+
 ;;;;;;;;;
 ; Themes
 ;;;;;;;;;
@@ -559,14 +615,18 @@ projects[omega][version] = 3.1
 projects[omega][subdir] = contrib
 projects[omega][type] = theme
 
-projects[bootstrap][version] = 3.0
+projects[bootstrap][version] = 3.x-dev
 projects[bootstrap][subdir] = contrib
-
 
 
 ;;;;;;;;;
 ; Libraries
 ;;;;;;;;;
+
+libraries[chosen][download][type] = "get"
+libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/releases/download/1.0.0/chosen_v1.0.0.zip"
+libraries[chosen][directory_name] = "chosen"
+libraries[chosen][destination] = "libraries"
 
 libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.zip"
@@ -604,7 +664,7 @@ libraries[liquidcarousel][download][url] = "http://www.nikolakis.net/liquidcarou
 
 libraries[codemirror][directory_name] = "codemirror"
 libraries[codemirrorl][type] = "library"
-libraries[codemirror][destination] = "/sites/all/libraries"
+libraries[codemirror][destination] = "libraries"
 libraries[codemirror][download][type] = "get"
 libraries[codemirror][download][url] = "http://codemirror.net/codemirror.zip"
 
@@ -642,3 +702,24 @@ libraries[stripephp][type] = "library"
 libraries[stripephp][destination] = "libraries"
 libraries[stripephp][download][type] = "get"
 libraries[stripephp][download][url] = "https://github.com/stripe/stripe-php/archive/master.zip"
+
+; leaflet
+libraries[leaflet][directory_name] = "leaflet"
+libraries[leaflet][type] = "library"
+libraries[leaflet][destination] = "libraries"
+libraries[leaflet][download][type] = "get"
+libraries[leaflet][download][url] = "http://leaflet-cdn.s3.amazonaws.com/build/leaflet-0.7.3.zip"
+
+; timelinejs
+libraries[timeline][directory_name] = "timeline"
+libraries[timeline][type] = "library"
+libraries[timeline][destination] = "libraries"
+libraries[timeline][download][type] = "get"
+libraries[timeline][download][url] = "https://github.com/NUKnightLab/TimelineJS/archive/2.26.5.zip"
+
+; headroom
+libraries[headroomjs][directory_name] = "headroomjs"
+libraries[headroomjs][type] = "library"
+libraries[headroomjs][destination] = "libraries"
+libraries[headroomjs][download][type] = "get"
+libraries[headroomjs][download][url] = "https://github.com/WickyNilliams/headroom.js/archive/master.zip"
