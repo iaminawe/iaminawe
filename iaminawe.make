@@ -605,6 +605,9 @@ projects[geophp][version] = 1.x-dev
 projects[ip_geoloc][subdir] = contrib
 projects[ip_geoloc][version] = 1.x-dev
 
+projects[owlcarousel][subdir] = contrib
+projects[owlcarousel][version] = 1.4
+
 
 ;;;;;;;;;
 ; Themes
@@ -661,6 +664,12 @@ libraries[liquidcarousel][type] = "library"
 libraries[liquidcarousel][destination] = "libraries"
 libraries[liquidcarousel][download][type] = "get"
 libraries[liquidcarousel][download][url] = "http://www.nikolakis.net/liquidcarousel/liquidcarousel.zip"
+
+libraries[owlcarousel][directory_name] = "owl-carousel"
+libraries[owlcarousel][type] = "library"
+libraries[owlcarousel][destination] = "libraries"
+libraries[owlcarousel][download][type] = "get"
+libraries[owlcarousel][download][url] = "http://owlgraphic.com/owlcarousel/owl.carousel.zip"
 
 libraries[codemirror][directory_name] = "codemirror"
 libraries[codemirrorl][type] = "library"
