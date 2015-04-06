@@ -80,7 +80,7 @@ dependencies[] = media
 dependencies[] = media_internet
 dependencies[] = media_vimeo
 dependencies[] = media_youtube
-dependencies[] = plupload
+
 ; Meta tags
 dependencies[] = metatag
 dependencies[] = metatag_opengraph
@@ -103,14 +103,12 @@ dependencies[] = libraries
 dependencies[] = menu_block
 dependencies[] = multiform
 dependencies[] = pathauto
-dependencies[] = plup
 dependencies[] = robotstxt
 dependencies[] = scroll_to_top
 dependencies[] = securesite
 dependencies[] = strongarm
 dependencies[] = token
 dependencies[] = triple_double
-dependencies[] = twitter_pull
 
 ; Sharing
 dependencies[] = sharethis
@@ -121,10 +119,7 @@ dependencies[] = taxonomy_manager
 dependencies[] = term_merge
 ; Taxonomy Menu
 dependencies[] = taxonomy_menu
-; Theme Tools
-dependencies[] = delta
-dependencies[] = delta_blocks
-dependencies[] = delta_ui
+
 
 ; User interface
 dependencies[] = extlink
