@@ -412,7 +412,7 @@ projects[fit_text][version] = 1.0
 projects[fit_text][subdir] = contrib
 projects[fit_text][type] = module
 
-projects[packery][version] = 1.0.x-dev
+projects[packery][version] = 1.x-dev
 projects[packery][subdir] = contrib
 projects[packery][type] = module
 
@@ -627,6 +627,9 @@ projects[omega][type] = theme
 
 projects[bootstrap][version] = 3.x-dev
 projects[bootstrap][subdir] = contrib
+
+projects[bootstrap_business][version] = 1.1
+projects[bootstrap_business][subdir] = contrib
 
 
 ;;;;;;;;;
