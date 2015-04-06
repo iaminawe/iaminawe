@@ -159,10 +159,6 @@ projects[node_view_permissions][subdir] = contrib
 projects[node_view_permissions][version] = 1.0
 projects[node_view_permissions][type] = module
 
-projects[profile2][subdir] = contrib
-projects[profile2][version] = 1.3
-projects[profile2][type] = module
-
 projects[references_dialog][subdir] = contrib
 projects[references_dialog][version] = 1.x-dev
 projects[references_dialog][type] = module
