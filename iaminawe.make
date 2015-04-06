@@ -27,11 +27,11 @@ projects[entityreference][type] = module
 projects[entityreference][patch][1699378] = http://drupal.org/files/view-argument-as-token-1699378-41.patch
 
 projects[field_group][subdir] = contrib
-projects[field_group][version] = 1.3
+projects[field_group][version] = 1.4
 projects[field_group][type] = module
 
 projects[field_collection][subdir] = contrib
-projects[field_collection][version] = 1.0-beta5
+projects[field_collection][version] = 1.0-beta8
 projects[field_collection][type] = module
 
 projects[field_collection_views][subdir] = contrib
@@ -88,7 +88,7 @@ projects[cpn][version] = 1.x-dev
 projects[cpn][type] = module
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.4
+projects[ctools][version] = 1.7
 projects[ctools][type] = module
 
 projects[ds][subdir] = contrib
@@ -100,7 +100,7 @@ projects[ds_bootstrap_layouts][version] = 3.x-dev
 projects[ds_bootstrap_layouts][type] = module
 
 projects[date][subdir] = contrib
-projects[date][version] = 2.7
+projects[date][version] = 2.9-rc1
 projects[date][type] = module
 
 projects[entity][subdir] = contrib
@@ -200,7 +200,7 @@ projects[views_bulk_operations][version] = 3.1
 projects[views_bulk_operations][type] = module
 
 projects[flippy][subdir] = contrib
-projects[flippy][version] = 1.3
+projects[flippy][version] = 1.4
 projects[flippy][type] = module
 
 projects[uuid_features][subdir] = contrib
@@ -211,6 +211,9 @@ projects[uuid][subdir] = contrib
 projects[uuid][version] = 1.0-alpha5
 projects[uuid][type] = module
 
+projects[variable][subdir] = contrib
+projects[variable][version] = 2.5
+projects[variable][type] = module
 
 ;;;;;;;;;
 ; SEO Tools
@@ -317,7 +320,7 @@ projects[domain_xmlsitemap][version] = 1.0-beta2
 projects[domain_xmlsitemap][subdir] = contrib
 projects[domain_xmlsitemap][type] = module
 
-projects[fpa][version] = 2.3
+projects[fpa][version] = 2.6
 projects[fpa][subdir] = contrib
 projects[fpa][type] = module
 
@@ -345,7 +348,7 @@ projects[toolbar_admin_menu][subdir] = contrib
 projects[toolbar_admin_menu][version] = 1.0
 projects[toolbar_admin_menu][type] = module
 
-projects[content_taxonomy][version] = 1.0-beta1
+projects[content_taxonomy][version] = 1.0-beta2
 projects[content_taxonomy][subdir] = contrib
 projects[content_taxonomy][type] = module
 
@@ -377,10 +380,6 @@ projects[media_youtube][version] = 1.0-beta3
 projects[media_youtube][subdir] = contrib
 projects[media_youtube][type] = module
 
-projects[plupload][version] = 1.3
-projects[plupload][subdir] = contrib
-projects[plupload][type] = module
-
 projects[adaptive_image][version] = 1.4
 projects[adaptive_image][subdir] = contrib
 projects[adaptive_image][type] = module
@@ -393,11 +392,11 @@ projects[browserclass][version] = 1.7
 projects[browserclass][subdir] = contrib
 projects[browserclass][type] = module
 
-projects[colorbox][version] = 2.4
+projects[colorbox][version] = 2.8
 projects[colorbox][subdir] = contrib
 projects[colorbox][type] = module
 
-projects[colorbox_node][version] = 3.3
+projects[colorbox_node][version] = 3.4
 projects[colorbox_node][subdir] = contrib
 projects[colorbox_node][type] = module
 
@@ -405,13 +404,17 @@ projects[custom_pagers][version] = 1.x-dev
 projects[custom_pagers][subdir] = contrib
 projects[custom_pagers][type] = module
 
-projects[fitvids][version] = 1.14
+projects[fitvids][version] = 1.17
 projects[fitvids][subdir] = contrib
 projects[fitvids][type] = module
 
 projects[fit_text][version] = 1.0
 projects[fit_text][subdir] = contrib
 projects[fit_text][type] = module
+
+projects[packery][version] = 1.0.x-dev
+projects[packery][subdir] = contrib
+projects[packery][type] = module
 
 projects[galleria][version] = 1.0-beta3
 projects[galleria][subdir] = contrib
@@ -429,9 +432,13 @@ projects[multiform][version] = 1.0
 projects[multiform][subdir] = contrib
 projects[multiform][type] = module
 
-projects[plup][version] = 1.0-alpha1
-projects[plup][subdir] = contrib
-projects[plup][type] = module
+projects[multiupload_imagefield_widget][version] = 1.3
+projects[multiupload_imagefield_widget][subdir] = contrib
+projects[multiupload_imagefield_widget][type] = module
+
+projects[multiupload_filefield_widget][version] = 1.13
+projects[multiupload_filefield_widget][subdir] = contrib
+projects[multiupload_filefield_widget][type] = module
 
 projects[scroll_to_top][version] = 2.1
 projects[scroll_to_top][subdir] = contrib
@@ -539,11 +546,11 @@ projects[admin_views][version] = 1.3
 projects[admin_views][type] = module
 
 projects[devel][subdir] = contrib
-projects[devel][version] = 1.1
+projects[devel][version] = 1.5
 projects[devel][type] = module
 
 projects[features][subdir] = contrib
-projects[features][version] = 2.2
+projects[features][version] = 2.4
 projects[features][type] = module
 
 projects[features_extra][subdir] = contrib
@@ -631,13 +638,18 @@ libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/releases
 libraries[chosen][directory_name] = "chosen"
 libraries[chosen][destination] = "libraries"
 
+libraries[packery][download][type] = "get"
+libraries[packery][download][url] = "http://packery.metafizzy.co/packery.pkgd.min.js"
+libraries[packery][directory_name] = "packery"
+libraries[packery][destination] = "libraries"
+
 libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
 
 libraries[colorbox][download][type] = "get"
-libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/master.zip"
+libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/1.6.0.zip"
 libraries[colorbox[directory_name] = colorbox"
 libraries[colorbox][destination] = "libraries"
 
@@ -676,13 +688,6 @@ libraries[codemirrorl][type] = "library"
 libraries[codemirror][destination] = "libraries"
 libraries[codemirror][download][type] = "get"
 libraries[codemirror][download][url] = "http://codemirror.net/codemirror.zip"
-
-; Plupload
-libraries[plupload][directory_name] = "plupload"
-libraries[plupload][type] = "library"
-libraries[plupload][destination] = "libraries"
-libraries[plupload][download][type] = "file"
-libraries[plupload][download][url] = "https://github.com/moxiecode/plupload/archive/v1.5.8.zip"
 
 ; jQuery Superfish
 ;libraries[superfish][directory_name] = "superfish"
