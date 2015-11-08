@@ -68,7 +68,7 @@ projects[transliteration][type] = module
 ;;;;;;;;;
 
 projects[backup_migrate][subdir] = contrib
-projects[backup_migrate][version] = 3.0
+projects[backup_migrate][version] = 3.1
 projects[backup_migrate][type] = module
 
 projects[better_formats][subdir] = contrib
@@ -88,11 +88,11 @@ projects[cpn][version] = 1.x-dev
 projects[cpn][type] = module
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.7
+projects[ctools][version] = 1.9
 projects[ctools][type] = module
 
 projects[ds][subdir] = contrib
-projects[ds][version] = 1.9
+projects[ds][version] = 2.11
 projects[ds][type] = module
 
 projects[ds_bootstrap_layouts][subdir] = contrib
@@ -100,7 +100,6 @@ projects[ds_bootstrap_layouts][version] = 3.x-dev
 projects[ds_bootstrap_layouts][type] = module
 
 projects[date][subdir] = contrib
-projects[date][version] = 2.9-rc1
 projects[date][type] = module
 
 projects[entity][subdir] = contrib
@@ -280,11 +279,11 @@ projects[ckeditor][version] = "1.13"
 projects[ckeditor][subdir] = "contrib"
 projects[ckeditor][type] = module
 
-projects[domain][version] = "3.11"
+projects[domain][version] = "3.12"
 projects[domain][subdir] = "contrib"
 projects[domain][type] = module
 
-projects[domain_blocks][version] = "3.0-beta1"
+projects[domain_blocks][version] = "3.0"
 projects[domain_blocks][subdir] = "contrib"
 projects[domain_blocks][type] = module
 
@@ -380,7 +379,7 @@ projects[adaptive_image][version] = 1.4
 projects[adaptive_image][subdir] = contrib
 projects[adaptive_image][type] = module
 
-projects[bg_image][version] = 1.3
+projects[bg_image][version] = 1.4
 projects[bg_image][subdir] = contrib
 projects[bg_image][type] = module
 
@@ -388,11 +387,11 @@ projects[browserclass][version] = 1.7
 projects[browserclass][subdir] = contrib
 projects[browserclass][type] = module
 
-projects[colorbox][version] = 2.8
+projects[colorbox][version] = 2.10
 projects[colorbox][subdir] = contrib
 projects[colorbox][type] = module
 
-projects[colorbox_node][version] = 3.4
+projects[colorbox_node][version] = 3.5
 projects[colorbox_node][subdir] = contrib
 projects[colorbox_node][type] = module
 
@@ -534,7 +533,7 @@ projects[xmlsitemap][type] = module
 ;;;;;;;;;
 
 projects[admin_menu][subdir] = contrib
-projects[admin_menu][version] = 3.0-rc4
+projects[admin_menu][version] = 3.0-rc5
 projects[admin_menu][type] = module
 
 projects[admin_views][subdir] = contrib
@@ -575,7 +574,7 @@ projects[commerce_stripe][type] = module
 
 ; Mapping
 
-projects[addressfield][version] = 1.0
+projects[addressfield][version] = 1.2
 projects[addressfield][subdir] = contrib
 projects[addressfield][type] = module
 
